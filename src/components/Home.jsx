@@ -1,6 +1,6 @@
 
 import React from 'react';
-import front from '../assets/front.jpg'
+import front from '../assets/background.jpg'
 import { useNavigate } from 'react-router-dom';
 
 function Home(props) {
