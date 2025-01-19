@@ -6,6 +6,14 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { FaArrowDown } from "react-icons/fa";
+import {
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Button,
+} from "@material-tailwind/react";
 
 function Navbar() {
   const redirect=useNavigate()
@@ -50,15 +58,24 @@ function Navbar() {
         : <FaBarsStaggered className="text-2xl sm:text-3xl text-white"/>
         }
        </button>
-       <h1 className=" text-xl sm:text-2xl lg:text-3xl font-semibold uppercase cursor-pointer" onClick={()=>redirect('/')}>VegiFruit</h1>
+       <h1 className=" text-xl sm:text-2xl lg:text-3xl font-semibold uppercase cursor-pointer" onClick={()=>redirect('/')}>FreshiMart</h1>
        </div>
 
         {/* dextop Menu */}
-            <div className="hidden md:flex gap-5 lg:gap-8 items-center text-base font-medium uppercase">
+            <div className="hidden md:flex gap-5 lg:gap-8 items-center text-base font-medium uppercase ">
             <a href="/">Home</a>
-            <a href="/fruit">Fruit</a>
-            <a href="/vegi">Vegetable</a>
-            <a href="/about">Shop</a>
+            <Menu>
+                <MenuHandler>
+                  <Button className="flex gap-2 items-center bg-green-800 outline-none border-0 shadow-none px-2 text-sm">Category <FaArrowDown /></Button>
+                </MenuHandler>
+                <MenuList className="bg-green-800 text-white">
+                  <MenuItem>Fruit</MenuItem>
+                  <MenuItem>Vegetable</MenuItem>
+                  <MenuItem>Grocery</MenuItem>
+                </MenuList>
+            </Menu>
+            <a href="/shop">Shop</a> 
+            <a href="/contact">Contact</a>
           </div>
 
         {/* Cart & Authentication */}
@@ -96,13 +113,14 @@ function Navbar() {
         {/* Mobile menu */}
        {
         menuOpen && 
-        <div className="absolute left-0 top-[70px]  z-10 md:hidden">
-          <div className="h-[100vh] w-[150px] ps-5 pt-5 uppercase flex flex-col gap-5 text-white bg-black" 
+        <div className="absolute left-0 top-[70px] z-10 md:hidden">
+          <div className="h-[100vh] w-[150px] pt-5 uppercase flex text-base flex-col gap-4 text-white bg-black px-2 " 
               ref={menuRef} >
-            <a href="/">Home</a>
-            <a href="/fruit">Fruit</a>
-            <a href="/vegi">Vegetable</a>
-            <a href="/about">Shop Now</a>
+            <a href="/" className="hover:bg-green-800 ps-4 py-1 rounded">Home</a>
+            <a href="/fruit" className="hover:bg-green-800 ps-4 py-1 rounded">Fruit</a>
+            <a href="/vegi" className="hover:bg-green-800 ps-4 py-1 rounded">Vegetable</a>
+            <a href="/grocery" className="hover:bg-green-800 ps-4 py-1 rounded">Grocery</a>
+            <a href="/shop" className="hover:bg-green-800 ps-4 py-1 rounded">Shop Now</a>
           </div>
        </div>
        }
