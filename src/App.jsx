@@ -9,7 +9,7 @@ import Vegi from './pages/Vegi'
 import Fruit from './pages/Fruit'
 import SignUp from './pages/SignUp'
 import Login from './pages/Login'
-import NotFound from './pages/NotFound'
+// import NotFound from './pages/NotFound'
 import Service from './components/Service'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -30,7 +30,7 @@ function App(props) {
     <Route path='/fruit'  element={<Fruit/>} />
     <Route path='/signup'  element={<SignUp/>} />
     <Route path='/login'  element={<Login/>} />
-    <Route path='*'  element={<NotFound/>} />
+    {/* <Route path='*'  element={<NotFound/>} /> */}
     <Route path='/service'  element={<Service/>} />
     <Route path='/about'  element={<About/>} />
     <Route path='/contact'  element={<Contact/>} />
