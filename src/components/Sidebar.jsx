@@ -1,37 +1,36 @@
 import React, { useState } from "react";
-import {
-  Card,
-  Typography,
-  List,
-  ListItem,
-  ListItemPrefix,
-  ListItemSuffix,
-  Chip,
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react";
-import {
-  ChevronRightIcon,
-  ChevronDownIcon,
-} from "@heroicons/react/24/outline";
-import {
-  InboxIcon,
-  UserCircleIcon,
-  Cog6ToothIcon,
-  PowerIcon,
-} from "@heroicons/react/24/solid";
+import {Card,Typography,List,ListItem,ListItemPrefix,ListItemSuffix,Chip,Accordion,AccordionHeader,AccordionBody,} from "@material-tailwind/react";
+import {ChevronDownIcon,} from "@heroicons/react/24/outline";
+import {InboxIcon, UserCircleIcon,Cog6ToothIcon,PowerIcon,} from "@heroicons/react/24/solid";
 import icon from "../assets/icon/icon.png";
 import fruit from "../assets/icon/fruit.png";
 import vegi from "../assets/icon/vegi.png";
 import grocery from "../assets/icon/grocery.png";
-import Product from "./Product";
+import leafy from '../assets/icon/leafy vegi.png'
+import root from '../assets/icon/root vegi.png'
+import marrow from '../assets/icon/marrow vegi.png'
+import citrus from '../assets/icon/citrus.png'
+import tropical from '../assets/icon/tropical.png'
+import masala from '../assets/icon/masala.png'
+import nuts from '../assets/icon/nuts.png'
+import grains from '../assets/icon/grains.png'
+import oil from '../assets/icon/oil.png'
+import { useNavigate } from "react-router-dom";
 
-function Sidebar() {
+function Sidebar({ onCategorySelect, onVarietySelect }) {
   const [open, setOpen] = useState(0);
+  const redirect=useNavigate()
 
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value);
+  };
+
+  const handleCategoryClick = (category) => {
+    onCategorySelect(category); // Notify parent component about the selected category
+  };
+
+  const handleVarietyClick = (variety) => {
+    onVarietySelect(variety); // Notify parent component about the selected variety
   };
 
   return (
@@ -47,7 +46,7 @@ function Sidebar() {
             variant="h5"
             color="blue-gray"
             className="uppercase font-bold"
-          >
+           >
             Freshimart
           </Typography>
         </div>
@@ -74,24 +73,24 @@ function Sidebar() {
                 <ListItemPrefix>
                   <img src={fruit} alt="Fruits" className="w-5 h-5" />
                 </ListItemPrefix>
-                <Typography color="blue-gray" className="mr-auto font-normal">
+                <Typography color="blue-gray" className="mr-auto font-normal" onClick={() => handleCategoryClick("Fruits")}>
                   Fruits
                 </Typography>
               </AccordionHeader>
             </ListItem>
             <AccordionBody className="py-1">
-              <List className="p-0">
-                <ListItem>
+              <List className="p-0 text-sm">
+                <ListItem onClick={() => handleVarietyClick("Citrus Fruits")}>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                    <img src={citrus} alt="citrus Fruits" className="w-5 h-5" />
                   </ListItemPrefix>
-                  Citrus Juices
+                  Citrus Fruits
                 </ListItem>
-                <ListItem>
+                <ListItem onClick={() => handleVarietyClick("Tropical Fruits")}>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                    <img src={tropical} alt="tropical fruits" className="w-5 h-5" />
                   </ListItemPrefix>
-                  Ready to Eat
+                  Tropical Fruits
                 </ListItem>
               </List>
             </AccordionBody>
@@ -116,24 +115,30 @@ function Sidebar() {
                 <ListItemPrefix>
                   <img src={vegi} alt="Vegetables" className="w-5 h-5" />
                 </ListItemPrefix>
-                <Typography color="blue-gray" className="mr-auto font-normal">
+                <Typography color="blue-gray" className="mr-auto font-normal" onClick={() => handleCategoryClick("Vegetables")}>
                   Vegetables
                 </Typography>
               </AccordionHeader>
             </ListItem>
             <AccordionBody className="py-1">
-              <List className="p-0">
-                <ListItem>
+              <List className="p-0 text-sm">
+                <ListItem onClick={() => handleVarietyClick("Leafy Green")}>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                    <img src={leafy} alt="" className="w-5 h-5" />
                   </ListItemPrefix>
                   Leafy Green
                 </ListItem>
-                <ListItem>
+                <ListItem onClick={() => handleVarietyClick("Root Vegi")}>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                    <img src={root} alt="" className="w-5 h-5" />
                   </ListItemPrefix>
                   Root Vegetables
+                </ListItem>
+                <ListItem onClick={() => handleVarietyClick("Marrow Vegi")}>
+                  <ListItemPrefix>
+                    <img src={marrow} alt="" className="w-5 h-5" />
+                  </ListItemPrefix>
+                  Marrow Vegetables
                 </ListItem>
               </List>
             </AccordionBody>
@@ -165,18 +170,30 @@ function Sidebar() {
               </AccordionHeader>
             </ListItem>
             <AccordionBody className="py-1">
-              <List className="p-0">
+              <List className="p-0 text-sm">
                 <ListItem>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                    <img src={masala} alt="" className="w-5 h-5" />
                   </ListItemPrefix>
-                  Whole Masala
+                  Masala
                 </ListItem>
                 <ListItem>
                   <ListItemPrefix>
-                    <ChevronRightIcon strokeWidth={3} className="h-3 w-5" />
+                  <img src={grains} alt="" className="w-5 h-5" />
                   </ListItemPrefix>
                   Grains
+                </ListItem>
+                <ListItem>
+                  <ListItemPrefix>
+                  <img src={nuts} alt="" className="w-5 h-5" />
+                  </ListItemPrefix>
+                  Nuts & Seeds
+                </ListItem>
+                <ListItem>
+                  <ListItemPrefix>
+                  <img src={oil} alt="" className="w-5 h-5" />
+                  </ListItemPrefix>
+                  Oils
                 </ListItem>
               </List>
             </AccordionBody>
@@ -221,11 +238,6 @@ function Sidebar() {
           </ListItem>
         </List>
       </Card>
-
-      {/* Main Content */}
-      <div className="flex-1 ml-0 md:ml-72 overflow-y-auto">
-        <Product />
-      </div>
     </div>
   );
 }

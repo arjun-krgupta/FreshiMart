@@ -1,13 +1,24 @@
 import React from "react";
 import allData from "../constant/allData";
 
-function Product() {
+function Product({ selectedCategory, selectedVariety }) {
+
+  const filteredData = allData.filter((item) => {
+    if (selectedVariety) {
+      return item.variety === selectedVariety;
+    }
+    if (selectedCategory) {
+      return item.category === selectedCategory;
+    }
+    return true; // Show all items by default
+  });
+    
   return (
     <>
       {/* Product Page Wrapper */}
       <div className="p-4 md:py-5">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-          {allData.map((val, ind) => (
+          {filteredData.map((val, ind) => (
             <div
               className="flex relative flex-col items-center py-2 px-3 bg-gray-100 w-full gap-3 rounded-md hover:transition-all hover:scale-[1.02]"
               key={ind}
@@ -28,7 +39,7 @@ function Product() {
                 <option value="">500g</option>
               </select>
               <div className="flex justify-between w-full items-center">
-                <p className="text-sm font-medium">{val.new_price}</p>
+                <p className="text-sm font-medium">{val.price}</p>
                 <button className="px-6 py-1 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] border outline-none rounded text-sm">
                   ADD
                 </button>

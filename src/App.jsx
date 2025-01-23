@@ -11,7 +11,6 @@ import Login from './pages/Login'
 import Service from './components/Service'
 import Contact from './components/Contact'
 import ForgetPassword from './pages/ForgetPassword'
-import Product from './components/Product';
 
 
 
@@ -28,7 +27,6 @@ function App(props) {
     {/* <Route path='*'  element={<NotFound/>} /> */}
     <Route path='/service'  element={<Service/>} />
     <Route path='/contact'  element={<Contact/>} />
-    <Route path='/allProduct'  element={<Product/>} />
     <Route path='/forget'  element={<ForgetPassword/>} />
     </Routes>
     </BrowserRouter>
