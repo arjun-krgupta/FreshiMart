@@ -37,7 +37,18 @@ import beetroot from '../assets/fruits/beetroot.png'
 import mushroom from '../assets/vegitables/mushroom.png'
 import orange from '../assets/fruits/orange.png'
 import spinach from '../assets/vegitables/spinach.png'
-
+import aashirvaad_atta from '../assets/grocery/Grains/Ashirvaad_atta.png'
+import fortune_atta from '../assets/grocery/Grains/fortune_atta_5kg.png'
+import fortune_rice from '../assets/grocery/Grains/Fortune_Basmati_Rice_5kg.png'
+import indiaGate_Everyday from '../assets/grocery/Grains/India_gate_Basmati_Rice_5kg_Everyday.png'
+import indiaGate_miniMogra from '../assets/grocery/Grains/India_gate_Basmati_Rice_5kg_Mini_Mogra.png'
+import indiaGate_Mogra from '../assets/grocery/Grains/India_gate_Basmati_Rice_5kg_Mogra.png'
+import indiaGate_Regular from '../assets/grocery/Grains/India_gate_Basmati_Rice_5kg_Regular.png'
+import indiaGate_Super from '../assets/grocery/Grains/India_gate_Basmati_Rice_5kg_Super.png'
+import Nature_fresh from '../assets/grocery/Grains/Nature_fresh_atta.png'
+import poha from '../assets/grocery/Grains/Poha.png' 
+import chicken_masala from '../assets/grocery/Masala/chicken_masala__catch.png'
+import oil from '../assets/grocery/Oil/fortune_oil_1ltr.png'
 
 let allData=[
     {
@@ -391,7 +402,247 @@ let allData=[
         variety: "Leafy Green",
         offer:"10% off",
     },
+    {
+    id: 39,
+    name: "Aashirvaad Atta",
+    img: aashirvaad_atta, 
+    price: "₹220",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 40,
+    name: "Fortune Atta",
+    img: fortune_atta, 
+    price: "₹210",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 41,
+    name: "Fortune Basmati Rice",
+    img: fortune_rice, 
+    price: "₹535",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 42,
+    name: "India Gate Basmati Rice (Everyday)",
+    img: indiaGate_Everyday, 
+    price: "₹355",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 43,
+    name: "India Gate Basmati Rice (Mini Mogra)",
+    img: indiaGate_miniMogra, 
+    price: "₹290",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 44,
+    name: "India Gate Basmati Rice (Mogra)",
+    img: indiaGate_Mogra, 
+    price: "₹345",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 45,
+    name: "India Gate Basmati Rice (Regular)",
+    img: indiaGate_Regular, 
+    price: "₹380",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 46,
+    name: "India Gate Basmati Rice (Super)",
+    img: indiaGate_Super, 
+    price: "₹780",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 47,
+    name: "Nature Fresh Atta",
+    img: Nature_fresh, 
+    price: "₹230",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 48,
+    name: "Poha",
+    img:poha , 
+    price: "₹51",
+    category: "Grocery",
+    variety: "Grains",
+    offer: "10% off",
+  },
+  {
+    id: 49,
+    name: "Chicken Masala",
+    img:chicken_masala , 
+    price: "₹80",
+    category: "Grocery",
+    variety: "Masala",
+    offer: "10% off",
+  },
+  {
+    id: 50,
+    name: "oil",
+    img:oil , 
+    price: "₹51",
+    category: "Grocery",
+    variety: "oil",
+    offer: "10% off",
+  },
+  
 
 ]
 
 export default allData;
+
+let masala=[
+    {
+        id: 1,
+        name: "Chat Masala",
+        img:chat_masala , 
+        price: "₹60",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "10% off",
+      },
+      {
+        id: 2,
+        name: "Chhole Masala",
+        img:Chhole_masala , 
+        price: "₹50",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "10% off",
+      },
+      {
+        id: 3,
+        name: "Chicken Masala",
+        img:chicken_masala_catch , 
+        price: "₹80",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "10% off",
+      },
+      {
+        id: 4,
+        name: "Chicken Masala",
+        img:chicken_masala_mdh , 
+        price: "₹79",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "10% off",
+      },
+      {
+        id: 5,
+        name: "Chilli Powder",
+        img:chilli_powder_catch , 
+        price: "₹90",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "10% off",
+      },
+      {
+        id: 6,
+        name: "Coriander Powder",
+        img:coriander_powder_catch , 
+        price: "35",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 7,
+        name: "Coriander Powder",
+        img:coriander_powder_tata , 
+        price: "45",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 8,
+        name: "Deggi Mirch",
+        img:deggi_mirch , 
+        price: "95",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 9,
+        name: "Garam Masala",
+        img:garam_masala_catch , 
+        price: "90",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 10,
+        name: "Garam Masala",
+        img:garam_masala_everest , 
+        price: "80",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 11,
+        name: "Garam Masala",
+        img:garam_masala_mdh , 
+        price: "95",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 12,
+        name: "Garam Masala",
+        img:garam_masala_tata , 
+        price: "110",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 13,
+        name: "Ginger & Garlic Paste",
+        img:ginger_garlic , 
+        price: "45",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      {
+        id: 14,
+        name: "Jeera Powder",
+        img:jeera_powder_catch , 
+        price: "90",
+        category: "Grocery",
+        variety: "Masala",
+        offer: "15% off",
+      },
+      
+
+]

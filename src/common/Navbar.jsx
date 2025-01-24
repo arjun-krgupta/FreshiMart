@@ -126,16 +126,6 @@ function Navbar() {
         className="fixed top-[100px] md:top-[70px] left-0 h-full bg-white w-52 sm:w-64 md:w-72 lg:w-80 p-2 rounded-none shadow-lg border border-gray-200 z-50"
         ref={menuRef}           >
         {/* Brand Section */}
-        <div className="mb-4 flex items-center gap-4 p-2">
-          <img src={icon} alt="brand" className="h-8 w-8" />
-          <Typography
-            variant="h5"
-            color="blue-gray"
-            className="uppercase font-bold"
-          >
-            Freshimart
-          </Typography>
-        </div>
 
         {/* Sidebar Items */}
         <List>

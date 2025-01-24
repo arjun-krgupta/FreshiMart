@@ -40,7 +40,7 @@ function Sidebar({ onCategorySelect, onVarietySelect }) {
         className=" hidden md:block fixed top-[100px] md:top-[70px] left-0 h-full bg-white w-52 sm:w-64 md:w-72 p-2 rounded-none shadow-lg border border-gray-200 z-50"
       >
         {/* Brand Section */}
-        <div className="mb-4 flex items-center gap-4 p-2">
+        {/* <div className="mb-4 flex items-center gap-4 p-2">
           <img src={icon} alt="brand" className="h-8 w-8" />
           <Typography
             variant="h5"
@@ -49,7 +49,7 @@ function Sidebar({ onCategorySelect, onVarietySelect }) {
            >
             Freshimart
           </Typography>
-        </div>
+        </div> */}
 
         {/* Sidebar Items */}
         <List>

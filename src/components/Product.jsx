@@ -23,11 +23,11 @@ function Product({ selectedCategory, selectedVariety }) {
               className="flex relative flex-col items-center py-2 px-3 bg-gray-100 w-full gap-3 rounded-md hover:transition-all hover:scale-[1.02]"
               key={ind}
             >
-              <div className="w-32 pt-3">
+              <div className="max-w-full h-[110px] overflow-hidden w-auto pt-4">
                 <p className="text-white bg-gradient-to-l from-[#9be15d] to-[#00e3ae] inline text-sm px-2 py-[2px] absolute top-0 left-0">
                   {val.offer}
                 </p>
-                <img src={val.img} alt="" className="w-full h-auto" />
+                <img src={val.img} alt="" className="w-auto h-full object-cover" />
               </div>
               <p className="text-base font-medium">{val.name}</p>
               <select
