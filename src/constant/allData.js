@@ -101,7 +101,7 @@ import jeera_powder_catch from '../assets/grocery/Masala/Jeera powder(catch).png
 import kashmiri_mirch_mdh from '../assets/grocery/Masala/Kashmiri mirch(MDH).png'
 import kashmiri_powder_everest from '../assets/grocery/Masala/Kashmiri mirch(everest).png'
 import kitchen_king_everest from '../assets/grocery/Masala/Kitchen king(everest).png'
-import kitchen_king_mdh from '../assets/grocery/Masala/kitchen king(MDH).png'
+import kitchen_king_mdh from '../assets/grocery/Masala/Kitchen king(MDH).png'
 import kitchen_king_tata from '../assets/grocery/Masala/Kitchen king(tata).png'
 import meat_masala_catch from '../assets/grocery/Masala/Meat masala(catch).png'
 import meat_masala_mdh from '../assets/grocery/Masala/Meat masala(MDH).png'
