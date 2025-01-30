@@ -16,8 +16,8 @@ function Product({ selectedCategory, selectedVariety }) {
   return (
     <>
       {/* Product Page Wrapper */}
-      <div className="p-4 md:py-5">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="p-4 md:py-5 px-8 md:px-16 lg:px-32">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 ">
           {filteredData.map((val, ind) => (
             <div
               className="flex relative flex-col items-center py-2 px-3 bg-gray-100 w-full gap-3 rounded-md hover:transition-all hover:scale-[1.02]"

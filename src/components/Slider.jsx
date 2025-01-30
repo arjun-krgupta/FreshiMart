@@ -10,7 +10,7 @@ function Slider(props) {
     return (
         <>
         <Marquee pauseOnHover>
-        <div className="grid grid-cols-4 pt-[100px] md:pt-[70px] gap-1 sm:gap-5 lg:gap-7 mt-2 w-full">
+        <div className="grid grid-cols-4 pt-[155px] md:pt-[125px] gap-1 sm:gap-5 lg:gap-7 mt-2 w-full">
             <div className="w-full">
             <img src={slider1} alt="" className='w-full h-[90px] sm:h-[120px] lg:h-[140px]' />
             </div>

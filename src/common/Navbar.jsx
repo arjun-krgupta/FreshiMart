@@ -6,6 +6,20 @@ import { CgProfile } from "react-icons/cg";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
+import { FaFirstOrder } from "react-icons/fa";
+import { MdFavoriteBorder } from "react-icons/md";
+import { IoMdNotifications } from "react-icons/io";
+import { IoGiftSharp } from "react-icons/io5";
+import { LuLogOut } from "react-icons/lu";
+
+import {
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Avatar,
+} from "@material-tailwind/react";
+
 import {
   Card,
   Typography,
@@ -28,7 +42,6 @@ import {
   Cog6ToothIcon,
   PowerIcon,
 } from "@heroicons/react/24/solid";
-import icon from "../assets/icon/icon.png";
 import fruit from "../assets/icon/fruit.png";
 import vegi from "../assets/icon/vegi.png";
 import grocery from "../assets/icon/grocery.png";
@@ -68,7 +81,7 @@ function Navbar() {
   return (
     <>
       {/* Navbar */}
-      <div className="flex flex-col gap-2 fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] h-[100px] md:h-[70px] shadow-md">
+      <div className="flex flex-col gap-2 fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] h-[100px] md:h-[70px]">
         {/* Top Section */}
         <div className="flex justify-between items-center text-white mt-5 px-12 sm:px-16 lg:px-32">
            {/* Logo */}
@@ -89,12 +102,58 @@ function Navbar() {
           />
 
           {/* Cart & Authentication */}
-          <div className="flex gap-6 sm:gap-8 lg:gap-10 items-center text-sm sm:text-base uppercase font-medium">
-            {/* Login */}
+          <div className="flex gap-6 sm:gap-8 lg:gap-10 items-center text-sm sm:text-base font-medium">
+            
+            <div className="flex gap-2">
+              {/* Profile */}
+              <Menu>
+                <MenuHandler>
+                  <span>
+                  <CgProfile className="text-[22px] text-white cursor-pointer" />
+                  </span>
+                </MenuHandler>
+                <MenuList>
+                  <MenuItem className="flex items-center gap-2">
+                    <CgProfile className="text-[19px] text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      My Profile
+                    </Typography>
+                  </MenuItem>
+                  <MenuItem className="flex items-center gap-2">
+                  <FaFirstOrder className="text-[19px] text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      Orders
+                    </Typography>
+                  </MenuItem>
+                  <MenuItem className="flex items-center gap-2">
+                  <MdFavoriteBorder className="text-[22px] text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      Wishlists
+                    </Typography>
+                  </MenuItem>
+                  <MenuItem className="flex items-center gap-2">
+                  <IoMdNotifications className="text-xl text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      Notifications
+                    </Typography>
+                  </MenuItem>
+                  <MenuItem className="flex items-center gap-2">
+                  <IoGiftSharp className="text-xl text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      Gift Cards
+                    </Typography>
+                  </MenuItem>
+                  <MenuItem className="flex items-center gap-2 ">
+                  <LuLogOut className="text-xl text-gray-500 cursor-pointer" />
+                    <Typography variant="small" className="font-medium">
+                      Logout
+                    </Typography>
+                  </MenuItem>
+                </MenuList>
+              </Menu>
+              {/* Login */}
             <a href="/login">Login</a>
-
-            {/* Profile */}
-            <CgProfile className="text-[22px] text-white cursor-pointer" />
+            </div>
 
             {/* Cart */}
             <Badge

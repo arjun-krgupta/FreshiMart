@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Slider from './Slider';
 import Sidebar from './Sidebar';
 import Product from './Product';
+import Filter from './Filter';
 
 function Home(props) {
 
@@ -20,19 +21,13 @@ function Home(props) {
 
   return (
    <>
+   <Filter onCategorySelect={handleCategorySelect}
+        onVarietySelect={handleVarietySelect}/>
    <Slider/>
-   <div className="flex">
-      <Sidebar
-        onCategorySelect={handleCategorySelect}
-        onVarietySelect={handleVarietySelect}
-      />
-      <div className="flex-1 ml-0 md:ml-72 overflow-y-auto">
-        <Product
+   <Product
           selectedCategory={selectedCategory}
           selectedVariety={selectedVariety}
         />
-      </div>
-    </div>
    </>
   ); 
 }
