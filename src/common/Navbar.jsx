@@ -11,6 +11,7 @@ import { MdFavoriteBorder } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import { IoGiftSharp } from "react-icons/io5";
 import { LuLogOut } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 import {
   Menu,
@@ -152,7 +153,7 @@ function Navbar() {
                 </MenuList>
               </Menu>
               {/* Login */}
-            <a href="/login">Login</a>
+            <Link href="/login">Login</Link>
             </div>
 
             {/* Cart */}
@@ -189,7 +190,7 @@ function Navbar() {
         {/* Sidebar Items */}
         <List>
           {/* Fruits Section */}
-          <Accordion
+          <Linkccordion
             open={open === 1}
             icon={
               <ChevronDownIcon
@@ -201,7 +202,7 @@ function Navbar() {
             }
           >
             <ListItem className="p-0" selected={open === 1}>
-              <AccordionHeader
+              <LinkccordionHeader
                 onClick={() => handleOpen(1)}
                 className="border-b-0 p-3"
               >
@@ -211,9 +212,9 @@ function Navbar() {
                 <Typography color="blue-gray" className="mr-auto font-normal">
                   Fruits
                 </Typography>
-              </AccordionHeader>
+              </LinkccordionHeader>
             </ListItem>
-            <AccordionBody className="py-1">
+            <LinkccordionBody className="py-1">
               <List className="p-0">
                 <ListItem>
                   <ListItemPrefix>
@@ -228,10 +229,10 @@ function Navbar() {
                   Ready to Eat
                 </ListItem>
               </List>
-            </AccordionBody>
-          </Accordion>
+            </LinkccordionBody>
+          </Linkccordion>
          {/* Vegetables Section */}
-           <Accordion
+           <Linkccordion
             open={open === 2}
             icon={
               <ChevronDownIcon
@@ -243,7 +244,7 @@ function Navbar() {
             }
           >
             <ListItem className="p-0" selected={open === 2}>
-              <AccordionHeader
+              <LinkccordionHeader
                 onClick={() => handleOpen(2)}
                 className="border-b-0 p-3"
               >
@@ -253,9 +254,9 @@ function Navbar() {
                 <Typography color="blue-gray" className="mr-auto font-normal">
                   Vegetables
                 </Typography>
-              </AccordionHeader>
+              </LinkccordionHeader>
             </ListItem>
-            <AccordionBody className="py-1">
+            <LinkccordionBody className="py-1">
               <List className="p-0">
                 <ListItem>
                   <ListItemPrefix>
@@ -270,11 +271,11 @@ function Navbar() {
                   Root Vegetables
                 </ListItem>
               </List>
-            </AccordionBody>
-          </Accordion>
+            </LinkccordionBody>
+          </Linkccordion>
 
           {/* Grocery Section */}
-          <Accordion
+          <Linkccordion
             open={open === 3}
             icon={
               <ChevronDownIcon
@@ -286,7 +287,7 @@ function Navbar() {
             }
           >
             <ListItem className="p-0" selected={open === 3}>
-              <AccordionHeader
+              <LinkccordionHeader
                 onClick={() => handleOpen(3)}
                 className="border-b-0 p-3"
               >
@@ -296,9 +297,9 @@ function Navbar() {
                 <Typography color="blue-gray" className="mr-auto font-normal">
                   Grocery
                 </Typography>
-              </AccordionHeader>
+              </LinkccordionHeader>
             </ListItem>
-            <AccordionBody className="py-1">
+            <LinkccordionBody className="py-1">
               <List className="p-0">
                 <ListItem>
                   <ListItemPrefix>
@@ -313,8 +314,8 @@ function Navbar() {
                   Grains
                 </ListItem>
               </List>
-            </AccordionBody>
-          </Accordion>
+            </LinkccordionBody>
+          </Linkccordion>
 
           {/* Divider */}
           <hr className="my-2 border-blue-gray-50" />
