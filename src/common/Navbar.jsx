@@ -153,7 +153,7 @@ function Navbar() {
                 </MenuList>
               </Menu>
               {/* Login */}
-            <Link href="/login">Login</Link>
+            <Link to="/login">Login</Link>
             </div>
 
             {/* Cart */}
