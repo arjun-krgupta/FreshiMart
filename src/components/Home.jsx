@@ -1,9 +1,8 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import Item from './Item';
 
 function Home(props) {
-
   return (
    <>
    <Item/>

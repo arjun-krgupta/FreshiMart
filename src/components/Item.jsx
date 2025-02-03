@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 function Item(props) {
   return (
   <>
-  <div className="bg-white py-3 mt-2 px-3 sm:px-10 md:px-16 lg:px-32">
+  <div className="bg-white py-5 px-3 sm:px-10 md:px-16 lg:px-32">
     {/* Fruits */}
   <div className="border p-2">
   <div className="flex justify-between px-3">
      <h1 className="text-lg font-semibold">Fruits</h1>
      <Link to="/allFruit" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       fruit.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -36,7 +36,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Vegetables</h1>
      <Link to="/allVegi" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       vegi.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -60,7 +60,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">All Grains</h1>
      <Link to="/allGrains" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       grains.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-3 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -84,7 +84,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Powder Masala</h1>
      <Link to="/allMasala" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       masala.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-3 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -108,7 +108,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Dry Fruits</h1>
      <Link to="/allDry_Fruits" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       dry_fruits.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -132,7 +132,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Ghee & Oils</h1>
      <Link to="/allGhee_oil" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       ghee_oil.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -156,7 +156,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Whole Masala</h1>
      <Link to="/allWhole_masala" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       whole_masala.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -180,7 +180,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Sugar & Salt</h1>
      <Link to="/allSugar_salt" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-3 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-3 py-1">
      {
       suger_salt.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-3 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>
@@ -204,7 +204,7 @@ function Item(props) {
      <h1 className="text-lg font-semibold">Nuts & Seeds</h1>
      <Link to="/allNuts_seed" className="text-sm hover:text-green-600">View all</Link>
      </div>
-     <div className="flex lg:justify-center overflow-x-scroll webkit w-full gap-4 lg:gap-4 py-1">
+     <div className="flex justify-start overflow-x-scroll webkit w-full gap-4 lg:gap-4 py-1">
      {
       nuts_Seeds.map((val,ind)=>
       <div className="flex flex-col border rounded shadow-md p-3 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}>

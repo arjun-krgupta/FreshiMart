@@ -12,8 +12,6 @@ import Service from './components/Service'
 import Contact from './components/Contact'
 import ForgetPassword from './pages/ForgetPassword'
 import Fruit from './pages/Fruit';
-import Filter from './components/Filter';
-import Slider from './components/Slider'
 import Vegi from './pages/Vegi';
 import Masala from './pages/Masala';
 import Grains from './pages/Grains';
@@ -30,8 +28,6 @@ function App(props) {
     <>
     <BrowserRouter>
     <Navbar/>
-    <Filter/>
-    <Slider/>
     <Routes>
     <Route path='/'  element={<Home/>} />
     <Route path='/cart'  element={<Cart/>} />
