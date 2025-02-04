@@ -36,28 +36,28 @@ function Navbar() {
       <div className={`flex flex-col gap-2 fixed top-0 left-0 w-full z-50 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] transition-all duration-300`}
         style={{ height: searchOpen ? "100px" : "70px" }} >
         {/* Top Section */}
-        <div className="flex justify-between items-center text-white mt-5 px-8 sm:px-10 md:px-20 lg:px-32">
+        <div className="flex justify-between items-center text-white mt-5 px-6 sm:px-10 md:px-20 lg:px-32">
           {/* Logo */}
           <div className="flex gap-6 items-center md:w-[65%] lg:w-[60%]">
             <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold uppercase cursor-pointer" onClick={() => redirect('/')}>
               FreshiMart
             </h1>
             {/* Desktop Search */}
-            <div className="hidden md:flex md:justify-between items-center bg-white px-2 w-full">
+            <div className="hidden md:flex md:justify-between items-center bg-white px-2 w-full rounded">
               <input type="text" placeholder="Search Products" className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm" />
               <IoSearch className="text-gray-600 text-[25px]" />
             </div>
           </div>
 
           {/* Cart & Authentication */}
-          <div className="flex gap-4 sm:gap-6 lg:gap-10 items-center text-sm sm:text-base font-medium md:w-[30%] lg:w-[27%]">
+          <div className="flex gap-3 sm:gap-6 lg:gap-10 items-center text-sm sm:text-base font-medium md:w-[30%] lg:w-[28%]">
             <IoSearch className="block md:hidden text-white text-[24px] cursor-pointer" onClick={handleSearh} />
             {/* location */}
               <Menu>
                 <MenuHandler>
                 <div className="flex gap-1 items-center cursor-pointer">
                     <ImLocation2 className="text-[25px] text-white" />
-                    <h1 className="text-white">110096</h1>
+                    <h1 className="text-white hidden sm:block">110096</h1>
                 </div>
                 </MenuHandler>
                 <MenuList className="mt-3">
@@ -115,7 +115,7 @@ function Navbar() {
               <Link to="/login">Login</Link>
             </div>
             {/* Cart */}
-            <Badge content={cartItem.length} className="m-[-6px] bg-black">
+            <Badge content={cartItem.length} className="m-[-4px] bg-black">
               <FaCartPlus className="text-[22px] cursor-pointer" onClick={() => redirect("/cart")} />
             </Badge>
           </div>
@@ -123,8 +123,8 @@ function Navbar() {
 
         {/* Mobile Search */}
         {searchOpen && (
-          <div className="px-10 ">
-            <div className="px-2 md:hidden flex justify-center items-center bg-white">
+          <div className="px-5 sm:px-10 ">
+            <div className="px-2 md:hidden flex justify-center items-center bg-white rounded">
               <input type="text" placeholder="Search Products" className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm" />
               <IoSearch className="text-gray-600 text-[25px]" onClick={handleSearh} />
             </div>

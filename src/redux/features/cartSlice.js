@@ -18,10 +18,10 @@ const cartSlice=createSlice({
 
             if(itemIndex>=0)
             {
-                state.cartItem[itemIndex].qnty +=1
+                state.cartItem[itemIndex].qty +=1
             }
             else{
-                const temp={...action.payload,qnty:1}
+                const temp={...action.payload,qty:1}
                 state.cartItem=[...state.cartItem,temp]
             }
         },
@@ -38,9 +38,9 @@ const cartSlice=createSlice({
             {
                 const itemIndex_dec=state.cartItem.findIndex((item)=>item.id===action.payload.id)
 
-                if(state.cartItem[itemIndex_dec].qnty >=1)
+                if(state.cartItem[itemIndex_dec].qty >=1)
                 {
-                    state.cartItem[itemIndex_dec].qnty -=1
+                    state.cartItem[itemIndex_dec].qty -=1
                 }
             }
 
