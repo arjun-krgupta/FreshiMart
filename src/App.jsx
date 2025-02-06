@@ -20,34 +20,41 @@ import Dry_Fruits from './pages/Dry_Fruits';
 import Nuts_Seed from './pages/Nuts_Seed';
 import Whole_Masala from './pages/Whole_Masala';
 import Sugar_Salt from './pages/Sugar_Salt';
+import { SearchProvider} from "./context/SearchContext";
+import Product from './components/Product';
+import ProductDetail from './pages/ProductDetail';
 
 
 
 function App(props) {
   return (
     <>
+    <SearchProvider>
     <BrowserRouter>
     <Navbar/>
     <Routes>
     <Route path='/'  element={<Home/>} />
     <Route path='/cart'  element={<Cart/>} />
     <Route path='/signup'  element={<SignUp/>} />
-    <Route path='/login'  element={<Login/>} />
+    <Route path='/login'  elemen={<Login/>} />
+    <Route path='/allData' element={<Product/>} />
+    <Route path='/allData/:id' element={<ProductDetail/>} />
     <Route path='/allFruit'  element={<Fruit/>} />
-    <Route path='/allVegi'  element={<Vegi/>} />
-    <Route path='/allMasala'  element={<Masala/>} />
+    <Route path='/allVegetables'  element={<Vegi/>} />
+    <Route path='/allPowder-Masala'  element={<Masala/>} />
     <Route path='/allGrains'  element={<Grains/>} />
-    <Route path='/allGhee_oil'  element={<Ghee_Oil/>} />
-    <Route path='/allDry_Fruits'  element={<Dry_Fruits/>} />
-    <Route path='/allNuts_seed'  element={<Nuts_Seed/>} />
-    <Route path='/allWhole_masala'  element={<Whole_Masala/>} />
-    <Route path='/allSugar_salt'  element={<Sugar_Salt/>} />
+    <Route path='/allGhee-Oil'  element={<Ghee_Oil/>} />
+    <Route path='/allDry-Fruit'  element={<Dry_Fruits/>} />
+    <Route path='/allNuts-Seed'  element={<Nuts_Seed/>} />
+    <Route path='/allWhole-Masala'  element={<Whole_Masala/>} />
+    <Route path='/allSugar-Salt'  element={<Sugar_Salt/>} />
     <Route path='*'  element={<NotFound/>} />
     <Route path='/service'  element={<Service/>} />
     <Route path='/contact'  element={<Contact/>} />
     <Route path='/forget'  element={<ForgetPassword/>} />
     </Routes>
     </BrowserRouter>
+    </SearchProvider>
     
     </>
   );

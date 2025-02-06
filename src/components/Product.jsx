@@ -1,53 +1,115 @@
 import React from "react";
-import allData from "../constant/allData";
+import { allData } from "../constant/allData";
+import { useSearch } from "../context/SearchContext";
+import { useDispatch, useSelector } from "react-redux";
+import { addCart, removeCart, removeSingleItem } from "../redux/features/cartSlice";
+import { ToastContainer, toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
-function Product({ selectedCategory, selectedVariety }) {
+function Product() {
+  const { searchTerm } = useSearch();
+  const { cartItem } = useSelector((state) => state.allCart);
+  const dispatch = useDispatch();
+  const navigate=useNavigate()
 
-  const filteredData = allData.filter((item) => {
-    if (selectedVariety) {
-      return item.variety === selectedVariety;
-    }
-    if (selectedCategory) {
-      return item.category === selectedCategory;
-    }
-    return true; // Show all items by default
-  });
-    
+  // Filtered items based on search term
+  const filteredItems = allData.filter((item) =>
+    item.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  // Add item to cart
+  const handleAddToCart = (val) => {
+    dispatch(addCart(val));
+    toast.success(`${val.name} added to cart`, {
+      position: "top-center",
+      autoClose: 1000,
+    });
+  };
+
+  // Increment item quantity
+  const handleIncrement = (e) => {
+    dispatch(addCart(e));
+  };
+
+  // Remove entire item from cart
+  const handleDecrement = (e) => {
+    dispatch(removeCart(e));
+  };
+
+  // Remove a single quantity of an item
+  const handleSingleDecrement = (e) => {
+    dispatch(removeSingleItem(e));
+  };
+
   return (
     <>
-      {/* Product Page Wrapper */}
-      <div className="p-4 md:py-5 px-8 md:px-16 lg:px-32">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 ">
-          {filteredData.map((val, ind) => (
-            <div
-              className="flex relative flex-col items-center py-2 px-3 bg-gray-100 w-full gap-3 rounded-md hover:transition-all hover:scale-[1.02]"
-              key={ind}
-            >
-              <div className="max-w-full h-[110px] overflow-hidden w-auto pt-4">
-                <p className="text-white bg-gradient-to-l from-[#9be15d] to-[#00e3ae] inline text-sm px-2 py-[2px] absolute top-0 left-0">
-                  {val.offer}
-                </p>
-                <img src={val.img} alt="" className="w-auto h-full object-cover" />
-              </div>
-              <p className="text-base font-medium">{val.name}</p>
-              <select
-                name=""
-                id=""
-                className="w-full border border-gray-100 text-sm outline-none ps-2"
-              >
-                <option value="">1kg</option>
-                <option value="">500g</option>
-              </select>
-              <div className="flex justify-between w-full items-center">
-                <p className="text-sm font-medium">{val.price}</p>
-                <button className="px-6 py-1 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] border outline-none rounded text-sm">
-                  ADD
-                </button>
-              </div>
-            </div>
-          ))}
+      <div className="px-2 mt-5 md:px-10 lg:px-16 xl:px-36">
+        {/* Product Grid */}
+        <div className="flex justify-center gap-4 flex-wrap items-center xl:grid xl:grid-cols-5 xl:justify-items-center">
+          {filteredItems.length > 0 ? (
+            filteredItems.map((val, ind) => {
+              const cartItemData = cartItem.find((item) => item.id === val.id);
+              const quantity = cartItemData?.qty || 0;
+              const totalPrice = quantity * val.price;
+
+              return (
+                <div
+                  className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[170px] sm:w-[195px]"
+                  key={ind} 
+                >
+                  <div className="max-w-full w-auto h-[100px] p-3 cursor-pointer" onClick={() => navigate(`/allData/${val.id}`)} // Navigate to Product Details 
+                  >
+                    <img
+                      src={val.img}
+                      alt={val.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h1 className="text-sm">{val.name}</h1>
+                  <span className="text-sm text-gray-500">{val.qnty}</span>
+                  <div className="flex justify-between items-center ">
+                    <h1 className="text-sm font-medium pe-7">
+                      ₹{totalPrice || val.price}
+                    </h1>
+
+                    {quantity > 0 ? (
+                      <div className="flex items-center gap-2">
+                        <button
+                          className="px-2 py-1 bg-red-500 text-white rounded text-sm"
+                          onClick={
+                            cartItemData.qty <= 1
+                              ? () => handleDecrement(val.id)
+                              : () => handleSingleDecrement(val)
+                          }
+                        >
+                          -
+                        </button>
+                        <span>{quantity}</span>
+                        <button
+                          className="px-2 py-1 bg-green-500 text-white rounded text-sm"
+                          onClick={() => handleIncrement(val)}
+                        >
+                          +
+                        </button>
+                      </div>
+                    ) : (
+                      <button
+                        className="px-6 py-1 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] border outline-none rounded text-sm"
+                        onClick={() => handleAddToCart(val)}
+                      >
+                        ADD
+                      </button>
+                    )}
+                  </div>
+                </div>
+              );
+            })
+          ) : (
+            <p>No products found</p>
+          )}
         </div>
       </div>
+      <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
     </>
   );
 }

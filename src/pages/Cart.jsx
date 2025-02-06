@@ -119,9 +119,9 @@ function Cart(props) {
                            <td className="p-4 ps-5">
                              <Typography
                                variant="small"
-                               className="font-normal text-gray-600 w-14"
+                               className="font-normal text-gray-600 w-11"
                              >
-                               <img src={data.img} className='w-full h-auto object-cover'/>
+                               <img src={data.img} className='w-full h-full object-cover'/>
                              </Typography>
                            </td>
                            

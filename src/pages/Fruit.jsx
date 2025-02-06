@@ -3,10 +3,12 @@ import { allFruit } from "../constant/allData";
 import { addCart,removeCart,removeSingleItem } from '../redux/features/cartSlice';
 import {useDispatch,useSelector } from 'react-redux'
 import { ToastContainer, toast } from 'react-toastify';
+import { useNavigate } from "react-router-dom";
 
 function Fruit(props) {
   const { cartItem } = useSelector((state) => state.allCart);
     const dispatch = useDispatch();
+    const navigate=useNavigate()
 
     // Add item to cart
     const handleAddToCart = (val) => {
@@ -44,9 +46,10 @@ function Fruit(props) {
          return (
             <div
               className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[170px] sm:w-[195px]"
-              key={ind}
+              key={ind} 
             >
-              <div className="max-w-full w-auto h-[100px] p-3">
+              <div className="max-w-full w-auto h-[100px] p-3 cursor-pointer" onClick={() => navigate(`/allData/${val.id}`)} // Navigate to Product Details
+               >
                 <img
                   src={val.img}
                   alt=""

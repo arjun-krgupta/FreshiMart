@@ -20,16 +20,23 @@ import slider2 from '../assets/slider 2.png'
 import slider3 from '../assets/slider 3.png'
 import slider4 from '../assets/slider 4.png'
 import { FaLocationCrosshairs } from "react-icons/fa6";
+import { useSearch } from "../context/SearchContext";
 
 function Navbar() {
   const redirect = useNavigate();
   const { cartItem } = useSelector((state) => state.allCart);
   const [searchOpen, setSearchOpen] = useState(false);
 
-  const handleSearh = () => {
+  const FixedSearh = () => {
     setSearchOpen((prev) => !prev);
   };
+  const { searchTerm, setSearchTerm } = useSearch();
+  const navigate = useNavigate();
 
+  const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+    navigate("/allData"); // Redirect to Fruits page when searching
+  };
   return (
     <>
       {/* Navbar */}
@@ -44,14 +51,16 @@ function Navbar() {
             </h1>
             {/* Desktop Search */}
             <div className="hidden md:flex md:justify-between items-center bg-white px-2 w-full rounded">
-              <input type="text" placeholder="Search Products" className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm" />
+              <input type="text" placeholder="Search Products" 
+              className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm"  value={searchTerm}
+              onChange={handleSearch} />
               <IoSearch className="text-gray-600 text-[25px]" />
             </div>
           </div>
 
           {/* Cart & Authentication */}
           <div className="flex gap-3 sm:gap-6 lg:gap-10 items-center text-sm sm:text-base font-medium md:w-[30%] lg:w-[28%]">
-            <IoSearch className="block md:hidden text-white text-[24px] cursor-pointer" onClick={handleSearh} />
+            <IoSearch className="block md:hidden text-white text-[24px] cursor-pointer" onClick={FixedSearh} />
             {/* location */}
               <Menu>
                 <MenuHandler>
@@ -125,8 +134,10 @@ function Navbar() {
         {searchOpen && (
           <div className="px-5 sm:px-10 ">
             <div className="px-2 md:hidden flex justify-center items-center bg-white rounded">
-              <input type="text" placeholder="Search Products" className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm" />
-              <IoSearch className="text-gray-600 text-[25px]" onClick={handleSearh} />
+              <input type="text" placeholder="Search Products" 
+              className="outline-none border-0 text-black text-sm py-2 w-full ps-2 placeholder:text-sm"  value={searchTerm}
+              onChange={handleSearch} />
+              <IoSearch className="text-gray-600 text-[25px]" onClick={FixedSearh} />
             </div>
           </div>
         )}
