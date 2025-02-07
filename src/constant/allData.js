@@ -199,7 +199,7 @@ let allData=[
     description:"Indulge in the natural sweetness and crisp texture of fresh apples, handpicked from the finest orchards. Our apples are rich in essential nutrients, making them a perfect snack for a healthy lifestyle.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, 
   },
   {
     id: 2,
@@ -221,7 +221,7 @@ let allData=[
     description:"Enjoy the rich, creamy texture and natural sweetness of our handpicked bananas, sourced from the best farms. Packed with essential vitamins, fiber, and potassium, bananas are a perfect energy booster for your daily diet.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 4,
@@ -232,7 +232,7 @@ let allData=[
     description:"Savor the burst of natural sweetness with our premium-quality berries, rich in antioxidants, vitamins, and fiber. These nutrient-packed delights support immunity, heart health, and glowing skin. Perfect for snacking, smoothies, desserts, and salads!",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 5,
@@ -255,7 +255,7 @@ let allData=[
     description:"Savor the Sweetness of Fresh Grapes! Our premium grapes are picked from the finest vineyards, offering a burst of juiciness with every bite. Whether you enjoy them as a snack, in salads, or as part of your favorite dishes, these grapes are a natural source of vitamins, antioxidants, and hydration.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   
   },
   {
@@ -289,7 +289,7 @@ let allData=[
     description:"Taste the tropical bliss with our fresh mangoes! Handpicked from the best orchards, these mangoes are packed with sweetness, juiciness, and a rich, tropical flavor that will leave you craving more. Perfect for enjoying on their own or adding to your fruit salads, smoothies, and desserts.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 10,
@@ -300,7 +300,7 @@ let allData=[
     description:"Delight in the tangy sweetness of fresh plums! These juicy, vibrant plums are perfect for snacking, making refreshing juices, or adding to your favorite fruit salads and desserts. With their naturally sweet and slightly tart flavor, plums are the ideal balance of deliciousness and health benefits.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 11,
@@ -311,7 +311,7 @@ let allData=[
     description:"A fruit known for its vibrant color, refreshing taste, and numerous health benefits! Packed with juicy seeds, each bite of this superfruit provides a delightful crunch and a burst of flavor. Perfect for snacking or adding to your smoothies, salads, and desserts.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 12,
@@ -322,7 +322,7 @@ let allData=[
     description:"Watermelon! Known for its juicy, sweet, and hydrating qualities, this tropical treat is perfect for beating the heat. Whether you're enjoying it by the slice, blending it into smoothies, or adding it to fruit salads, watermelon is the ideal refreshing snack.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 13,
@@ -366,7 +366,7 @@ let allData=[
     description:" Experience the tropical sweetness and vibrant orange color of fresh Papaya, a fruit packed with essential nutrients that your body will love! Papaya is known for its high vitamin content and digestive benefits.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 17,
@@ -377,7 +377,7 @@ let allData=[
     description:"Discover the refreshing sweetness and tang of fresh Pineapple, a tropical fruit that combines a juicy burst of flavor with numerous health benefits. Known for its vibrant yellow color and high vitamin content, Pineapple is a perfect addition to any meal or snack.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 18,
@@ -388,7 +388,7 @@ let allData=[
     description:"Embrace the earthy goodness of fresh Beetroot, a powerhouse of nutrients that will elevate your meals and your health! With its rich color and rich nutritional profile, beetroot is not only a treat for your taste buds but also a natural boost for your body.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 19,
@@ -399,7 +399,7 @@ let allData=[
     description:"Savor the refreshing taste of juicy, sweet, and tangy Oranges, packed with vibrant flavor and essential nutrients. This citrus fruit is a perfect addition to your daily diet for a burst of freshness and vitality!",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 20,
@@ -410,7 +410,7 @@ let allData=[
     description:"Indulge in the creamy richness of fresh Avocados, a versatile superfood perfect for your healthy lifestyle. With its smooth texture and rich flavor, Avocados are packed with healthy fats, making them a must-have for any meal.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 21,
@@ -421,7 +421,7 @@ let allData=[
     description:"Savor the vibrant and refreshing taste of Dragon Fruit, the exotic fruit packed with antioxidants and vitamins. Its unique appearance and mildly sweet flavor make it a perfect addition to your fruit collection.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 22,
@@ -432,7 +432,7 @@ let allData=[
     description:"Indulge in the juicy, sweet flavor of freshly picked strawberries, perfect for satisfying your cravings. These vibrant red berries are not only delicious but also packed with essential nutrients.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 23,
@@ -443,7 +443,7 @@ let allData=[
     description:" Delight in the rich, sweet flavor of fresh sweet potatoes, a versatile root vegetable packed with nutrients. Whether baked, mashed, or roasted, sweet potatoes offer a delightful and healthy addition to any meal.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 24,
@@ -454,7 +454,7 @@ let allData=[
     description:"Experience the refreshing tang of kiwi, packed with natural sweetness and a burst of tropical flavor. With its unique blend of tartness and sweetness, kiwi is the perfect fruit to enhance your daily nutrition.",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   // vegi 
   {
@@ -466,7 +466,7 @@ let allData=[
     category: "Vegetables",
     variety: "Marrow Vegi",
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 26,
@@ -474,10 +474,10 @@ let allData=[
     img: brocoli,
       price: 80,
     qnty:"1 kg",
-    description:"",
+    description:"Broccoli is a nutrient-rich vegetable known for its dense green florets and crunchy texture. Packed with vitamins, fiber, and antioxidants, it’s a versatile vegetable that can be enjoyed raw, steamed, or cooked in various dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 28,
@@ -485,32 +485,32 @@ let allData=[
     img: beans,
       price: 50,
     qnty:"500 gm",
-    description:"",
+    description:"Beans are a popular leafy green vegetable known for their tender pods and fresh flavor. They are a great source of fiber, vitamins, and minerals, making them a healthy addition to any meal.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 29,
     name: "Bottle Gourd",
     img: bottleGourd,
     price: 40,
-    description:"",
+    description:"Bottle Gourd, also known as Lauki, is a light and nutritious vegetable with a mild flavor. It’s low in calories and high in water content, making it ideal for weight management and hydration.",
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 30,
     name: "Cabbage",
     img: cabbage,
       price: 50,
-      description:"",
+      description:"Cabbage is a versatile leafy vegetable with a crisp texture and mild flavor. It’s rich in vitamins C and K, and its high fiber content makes it great for digestion and overall health.",
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 31,
@@ -518,10 +518,10 @@ let allData=[
     img: capsicum,
       price: 50,
     qnty:"1 kg",
-    description:"",
+    description:"Capsicum, also known as bell pepper, is a colorful and crunchy vegetable available in green, red, and yellow varieties. It’s rich in vitamins A and C, adding both flavor and nutrition to your meals.",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 32,
@@ -529,10 +529,10 @@ let allData=[
     img: carrot,
     price: 40,
     qnty:"1 kg",
-    description:"",
+    description:"Carrots are a vibrant root vegetable known for their sweet flavor and crunchy texture. They are an excellent source of beta-carotene, fiber, and antioxidants, promoting eye health and overall wellness.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 33,
@@ -540,7 +540,7 @@ let allData=[
     img: ladiesFinger,
     price: 70,
     qnty:"1 kg",
-    description:"",
+    description:"Ladies Finger, also known as Okra, is a green, finger-shaped vegetable with a unique texture and flavor. It’s rich in fiber, vitamins, and minerals, making it a healthy choice for soups, stews, and stir-fries.",
     category: "Vegetables",
     variety: "Leafy Green",
     offer: "10% off",qty:0,
@@ -551,10 +551,10 @@ let allData=[
     img: onion,
     price: 40,
     qnty:"1 kg",
-    description:"",
+    description:"Onions are a staple vegetable in many cuisines, known for their pungent flavor and versatility. They are rich in antioxidants and compounds that support heart health and immunity.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 35,
@@ -562,10 +562,10 @@ let allData=[
     img: pea,
       price: 50,
     qnty:"1 kg",
-    description:"",
+    description:"Peas are small, round, and sweet green seeds packed with protein, fiber, and essential vitamins. They are a versatile ingredient that can be used in soups, salads, and main dishes.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 36,
@@ -573,32 +573,32 @@ let allData=[
     img: potato,
      price: 30,
     qnty:"1 kg",
-    description:"",
+    description:"Potatoes are a staple vegetable known for their versatility and comforting taste. They are a good source of carbohydrates, potassium, and vitamin C, making them a filling and nutritious choice.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 37,
     name: "Pumpkin",
     img: pumpkin,
       price: 50,
-      description:"",
+      description:"Pumpkin is a vibrant and nutritious vegetable with a sweet, earthy flavor. It’s rich in vitamins A and C, fiber, and antioxidants, making it a healthy addition to both savory and sweet dishes.",
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 38,
     name: "Radish",
     img: radish,
      price: 30,
-     description:"",
+     description:"Radish is a crunchy root vegetable with a peppery flavor. It’s low in calories and high in fiber, vitamins, and minerals, making it a refreshing and healthy addition to salads and dishes.",
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 39,
@@ -606,10 +606,10 @@ let allData=[
     img: cauliflower,
      price: 60,
     qnty:"1 kg",
-    description:"",
+    description:"Cauliflower is a versatile vegetable with a mild flavor and dense texture. It’s rich in vitamins C and K, fiber, and antioxidants, making it a great low-carb alternative in various recipes.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 40,
@@ -617,10 +617,10 @@ let allData=[
     img: cucumber,
       price: 50,
     qnty:"1 kg",
-    description:"",
+    description:"Cucumber is a refreshing and hydrating vegetable with a crisp texture and mild flavor. It’s low in calories and high in water content, making it perfect for salads and snacks.",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 41,
@@ -628,7 +628,7 @@ let allData=[
     img: ginger,
       price: 80,
     qnty:"500 gm",
-    description:"",
+    description:"Ginger is a pungent and aromatic root known for its medicinal properties and culinary uses. It’s rich in antioxidants and anti-inflammatory compounds, making it a popular ingredient in teas and dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
     offer: "10% off",qty:0,
@@ -639,10 +639,10 @@ let allData=[
     img: methi,
     price: 40,
     qnty:"250 gm",
-    description:"",
+    description:"Methi, or Fenugreek leaves, are a leafy green vegetable with a slightly bitter taste and numerous health benefits. They are rich in iron, fiber, and antioxidants, making them a nutritious addition to meals.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 43,
@@ -650,10 +650,10 @@ let allData=[
     img: mushroom,
      price: 60,
     qnty:"250 gm",
-    description:"",
+    description:"Mushrooms are a unique and flavorful vegetable known for their meaty texture and earthy taste. They are low in calories and rich in protein, vitamins, and minerals, making them a healthy choice for various dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 44,
@@ -661,10 +661,10 @@ let allData=[
     img: spinach,
       price: 80,
     qnty:"500 gm",
-    description:"",
+    description:"Spinach is a nutrient-dense leafy green vegetable packed with iron, vitamins, and antioxidants. It’s versatile and can be used in salads, soups, and cooked dishes for a healthy boost.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 45,
@@ -672,7 +672,7 @@ let allData=[
     img: arbi,
       price: 80,
     qnty:"1 kg",
-    description:"",
+    description:"Arbi, also known as Colocasia, is a starchy root vegetable with a nutty flavor. It’s rich in fiber, vitamins, and minerals, making it a healthy and filling addition to meals.",
     category: "Vegetables",
     variety: "Root vegi",
     offer: "10% off",qty:0,
@@ -682,7 +682,7 @@ let allData=[
     name: "Bathuwa",
     img: bathuwa,
       price: 80,
-      description:"",
+      description:"Bathuwa, or Chenopodium, is a leafy green vegetable known for its high iron and calcium content. It’s often used in traditional dishes for its nutritional benefits and unique flavor.",
     qnty:"500 gm",
     category: "Vegetables",
     variety: "Leafy Green",
@@ -693,11 +693,11 @@ let allData=[
     name: "Beans Broad",
     img: beans_broad,
       price: 80,
-      description:"",
+      description:"Broad Beans are large, flat, and nutritious legumes with a mild flavor. They are rich in protein, fiber, and essential vitamins, making them a healthy addition to various dishes.",
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 48,
@@ -705,10 +705,10 @@ let allData=[
     img: brinjal,
       price: 80,
     qnty:"1 kg",
-    description:"",
+    description:"Brinjal, also known as Eggplant, is a versatile vegetable with a spongy texture and mild flavor. It’s rich in fiber, antioxidants, and vitamins, making it a healthy choice for curries and stir-fries.",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 49,
@@ -716,10 +716,10 @@ let allData=[
     img: tinda,
       price: 100,
     qnty:"1 kg",
-    description:"",
+    description:"Chappan Tinda is a small, round vegetable with a mild flavor and tender texture. It’s low in calories and rich in vitamins, making it a healthy addition to soups and curries.",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 50,
@@ -729,7 +729,7 @@ let allData=[
     qnty:"100 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Chilli is a spicy vegetable used to add heat and flavor to dishes. It’s rich in vitamins A and C, and its capsaicin content is known to boost metabolism and reduce inflammation. ",
   },
   {
     id: 51,
@@ -737,10 +737,10 @@ let allData=[
     img: curry_leave,
      price: 60,
     qnty:"100 gm",
-    description:"",
+    description:"Curry Leaves are aromatic leaves used to enhance the flavor of dishes. They are rich in antioxidants and have numerous health benefits, including improved digestion and reduced cholesterol.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 52,
@@ -748,10 +748,10 @@ let allData=[
     img: dhaniya,
     price: 40,
     qnty:"100 gm",
-    description:"",
+    description:"Dhaniya, or Coriander, is a fragrant herb used to garnish and flavor dishes. It’s rich in vitamins, minerals, and antioxidants, making it a healthy and flavorful addition to meals.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 53,
@@ -759,10 +759,10 @@ let allData=[
     img: garlic,
       price: 100,
     qnty:"250 gm",
-    description:"",
+    description:"Garlic is a pungent and flavorful vegetable known for its medicinal properties. It’s rich in antioxidants and compounds that support heart health and immunity.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 54,
@@ -770,10 +770,10 @@ let allData=[
     img: green_banana,
       price: 80,
     qnty:"12 piece",
-    description:"",
+    description:"Green Bananas are unripe bananas with a starchy texture and mild flavor. They are rich in resistant starch, fiber, and essential nutrients, making them a healthy addition to savory dishes.",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 55,
@@ -781,10 +781,10 @@ let allData=[
     img: green_chilli,
       price: 50,
     qnty:"250 gm",
-    description:"",
+    description:"Green Chilli is a spicy vegetable used to add heat and flavor to dishes. It’s rich in vitamins A and C, and its capsaicin content is known to boost metabolism and reduce inflammation.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, 
   },
   {
     id: 56,
@@ -792,7 +792,7 @@ let allData=[
     img: mint_leaves,
       price: 50,
     qnty:"100 gm",
-    description:"",
+    description:"Mint Leaves are aromatic and refreshing herbs used to flavor dishes and beverages. They are rich in antioxidants and have digestive and cooling properties.",
     category: "Vegetables",
     variety: "Leafy Green",
     offer: "10% off",qty:0,
@@ -803,7 +803,7 @@ let allData=[
     img: rai_saag,
       price: 80,
     qnty:"250 gm",
-    description:"",
+    description:"Raai Saag, or Mustard Greens, are leafy green vegetables with a slightly bitter taste. They are rich in vitamins, minerals, and antioxidants, making them a nutritious addition to meals.",
     category: "Vegetables",
     variety: "Leafy Green",
     offer: "10% off",qty:0,
@@ -814,7 +814,7 @@ let allData=[
     img: red_cabbage,
       price: 100,
     qnty:"1 kg",
-    description:"",
+    description:"Red Cabbage is a vibrant and crunchy vegetable with a slightly peppery flavor. It’s rich in vitamins C and K, fiber, and antioxidants, making it a healthy addition to salads and dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
     offer: "10% off",qty:0,
@@ -825,7 +825,7 @@ let allData=[
     img: red_potato,
       price: 80,
     qnty:"1 kg",
-    description:"",
+    description:"Red Potatoes are a variety of potatoes with a smooth, red skin and creamy texture. They are rich in carbohydrates, potassium, and vitamin C, making them a filling and nutritious choice.",
     category: "Vegetables",
     variety: "Root Vegi",
     offer: "10% off",qty:0,
@@ -836,7 +836,7 @@ let allData=[
     img: spring_onion,
       price: 100,
     qnty:"250 gm",
-    description:"",
+    description:"Spring Onions are young onions with a mild flavor and crisp texture. They are rich in vitamins and antioxidants, making them a healthy and flavorful addition to salads and dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
     offer: "10% off",qty:0,
@@ -850,7 +850,7 @@ let allData=[
     category: "Grocery",
     variety: "Grains",
     qnty:"5 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium whole wheat flour for soft, fluffy rotis and chapatis. Made from high-quality grains, it ensures superior taste and nutrition. Enriched with essential nutrients, it retains natural fiber for a healthier diet.",
   },
   {
     id: 62,
@@ -860,7 +860,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"A high-quality whole wheat flour that guarantees soft and delicious chapatis. Packed with essential nutrients and dietary fiber, it ensures a wholesome meal for your family. ",
   },
   {
     id: 63,
@@ -870,7 +870,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Made from finely ground chana dal, this gram flour is ideal for making crispy pakoras, sweets, and traditional Indian dishes. It provides rich taste and texture to your recipes.",
   },
   {
     id: 64,
@@ -880,7 +880,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium-quality gram flour, perfect for preparing snacks like bhajiyas, pakoras, and traditional Indian sweets. Made from the finest chana dal, it offers great taste and texture.",
   },
   {
     id: 65,
@@ -890,7 +890,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Nutritious broken wheat, ideal for porridge, upma, and healthy breakfast dishes. High in fiber and essential nutrients, it promotes digestion and overall well-being.",
   },
   {
     id: 66,
@@ -900,7 +900,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Long-grain aromatic basmati rice with a rich flavor and fluffy texture. Perfect for biryanis, pulao, and everyday meals.",
   },
   {
     id: 67,
@@ -910,7 +910,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" High-quality basmati rice with a pleasant aroma and soft texture. Ideal for daily cooking and versatile dishes.",
   },
   {
     id: 68,
@@ -920,7 +920,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A budget-friendly basmati rice option with a mild fragrance and soft grains, suitable for pulao and regular meals.",
   },
   {
     id: 69,
@@ -930,7 +930,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Aromatic and flavorful basmati rice, perfect for traditional Indian dishes like biryani and jeera rice.",
   },
   {
     id: 70,
@@ -940,7 +940,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium-quality basmati rice that offers long, non-sticky grains, perfect for daily cooking and festive meals. ",
   },
   {
     id: 71,
@@ -950,7 +950,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Superior-grade basmati rice with an exquisite aroma and elongated grains, ideal for luxurious biryanis and special occasions.",
   },
   {
     id: 72,
@@ -960,7 +960,7 @@ let allData=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Whole wheat flour processed to retain natural fiber and nutrients. Ensures soft and healthy rotis with every meal. ",
   },
   {
     id: 73,
@@ -970,7 +970,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Flattened rice, ideal for quick and healthy breakfast recipes. Light, easy to digest, and rich in carbohydrates for instant energy. ",
   },
   {
     id: 74,
@@ -980,7 +980,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Refined wheat flour perfect for baking, cooking, and preparing snacks like samosas, bread, and cakes. Ensures a smooth, soft texture.",
   },
   {
     id: 75,
@@ -990,7 +990,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Fine-quality refined flour suitable for bakery items, parathas, and traditional Indian sweets like jalebis. ",
   },
   {
     id: 76,
@@ -1000,7 +1000,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" High-quality flattened rice, perfect for light and healthy breakfast dishes. Easily digestible and quick to prepare.",
   },
   // Masala
   {
@@ -1011,7 +1011,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A tangy and spicy blend used to flavor snacks like chaat, fruits, and salads. It adds a zesty kick to dishes.",
   },
   {
     id: 78,
@@ -1021,7 +1021,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Aromatic spice mix specially crafted for chickpea dishes. It enhances the flavor of chhole, making it rich and delicious. ",
   },
   {
     id: 79,
@@ -1031,7 +1031,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A flavorful blend of spices perfect for marinating and cooking chicken dishes. It adds a rich, savory taste.",
   },
   {
     id: 80,
@@ -1041,7 +1041,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A premium spice mix for chicken dishes, offering a robust and authentic flavor. Ideal for curries and grills.",
   },
   {
     id: 81,
@@ -1051,7 +1051,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"A fiery spice made from dried red chillies, adding heat and color to curries, marinades, and snacks. ",
   },
   {
     id: 82,
@@ -1061,7 +1061,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Ground coriander seeds with a mild, citrusy flavor. Essential for curries, soups, and marinades.",
   },
   {
     id: 83,
@@ -1071,7 +1071,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Aromatic and flavorful coriander powder, perfect for enhancing the taste of Indian and global cuisines.",
   },
   {
     id: 84,
@@ -1081,7 +1081,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Mild and vibrant red chili powder, adding color and a subtle heat to dishes without overwhelming spiciness.",
   },
   {
     id: 85,
@@ -1091,7 +1091,7 @@ let allData=[
     qnty:"200 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A warm and aromatic spice blend, perfect for adding depth to curries, rice, and meat dishes.",
   },
   {
     id: 86,
@@ -1101,7 +1101,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A classic blend of spices, offering a rich and earthy flavor to enhance traditional Indian dishes.",
   },
   {
     id: 87,
@@ -1111,7 +1111,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A premium spice mix with a balanced flavor, ideal for adding warmth and aroma to curries and gravies. ",
   },
   {
     id: 88,
@@ -1121,7 +1121,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A fragrant blend of spices, perfect for elevating the taste of soups, stews, and traditional Indian dishes.",
   },
   {
     id: 89,
@@ -1131,7 +1131,7 @@ let allData=[
     qnty:"150 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A convenient blend of ginger and garlic, adding a punch of flavor to marinades, curries, and stir-fries.",
   },
   {
     id: 90,
@@ -1141,7 +1141,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Ground cumin seeds with a warm, earthy flavor. Perfect for seasoning curries, rice, and snacks. ",
   },
   {
     id: 91,
@@ -1151,7 +1151,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Mild and vibrant red chili powder, adding color and a subtle heat to dishes without overwhelming spiciness.",
   },
   {
     id: 92,
@@ -1161,7 +1161,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A mild chili powder that adds a rich red color and gentle heat to dishes, perfect for gravies and marinades. ",
   },
   {
     id: 93,
@@ -1171,7 +1171,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A versatile spice blend that enhances the flavor of vegetables, curries, and rice dishes with a rich, savory taste.",
   },
   {
     id: 94,
@@ -1181,7 +1181,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A premium spice mix that adds a robust flavor to vegetarian and non-vegetarian dishes, making them more aromatic. ",
   },
   { 
     id: 95,
@@ -1191,7 +1191,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A flavorful blend of spices, perfect for adding depth and richness to a variety of Indian dishes. ",
   },
   {
     id: 96,
@@ -1201,7 +1201,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A spicy blend designed for meat dishes, enhancing the flavor of curries, kebabs, and grills. ",
   },
   {
     id: 97,
@@ -1211,7 +1211,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A rich and aromatic spice mix, perfect for marinating and cooking meat dishes with authentic flavors. ",
   },
   {
     id: 98,
@@ -1221,7 +1221,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A flavorful blend that adds a spicy and savory taste to meat curries, roasts, and grills. ",
   },
   {
     id: 99,
@@ -1231,7 +1231,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A versatile spice mix that enhances the flavor of vegetable dishes, making them more aromatic and delicious.",
   },
   {
     id: 100,
@@ -1241,7 +1241,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" A special blend of spices, perfect for adding a rich and savory flavor to vegetable curries and stir-fries.",
   },
   {
     id: 101,
@@ -1251,7 +1251,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A royal spice mix designed for paneer dishes, offering a rich and creamy flavor to shahi paneer and gravies. ",
   },
   {
     id: 102,
@@ -1261,7 +1261,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A vibrant yellow spice known for its earthy flavor and health benefits. Essential for curries, rice, and soups. ",
   },
   {
     id: 103,
@@ -1271,7 +1271,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" High-quality turmeric powder, adding color and a mild, earthy flavor to dishes while offering health benefits.",
   },
   // Dry Fruits
   {
@@ -1282,7 +1282,7 @@ let allData=[
     category: "Grocery",
     variety: "Dry Fruits",
     qnty:"250 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium-quality almonds packed with essential nutrients, antioxidants, and healthy fats. Perfect for snacking, baking, and adding crunch to your meals. ",
   },
   {
     id: 105,
@@ -1292,7 +1292,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Naturally sweet and chewy, dates are a great source of fiber, energy, and essential vitamins. Ideal for snacking or adding to desserts. ",
   },
   {
     id: 106,
@@ -1302,7 +1302,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Crunchy and protein-rich peanuts, perfect for snacking, making peanut butter, or enhancing your dishes with a nutty flavor. ",
   },
   {
     id: 107,
@@ -1312,7 +1312,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Light, crunchy, and nutritious fox nuts, perfect for healthy snacking. Rich in protein and fiber for a guilt-free treat.",
   },
   {
     id: 108,
@@ -1322,7 +1322,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium-quality fox nuts with a crunchy texture and mild taste. A healthy, low-calorie snack for any time of the day. ",
   },
   {
     id: 109,
@@ -1332,7 +1332,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Superfood packed with fiber, protein, and omega-3 fatty acids. Great for smoothies, puddings, and healthy recipes.",
   },
   {
     id: 110,
@@ -1342,7 +1342,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Naturally sweet and juicy dried grapes, rich in antioxidants and iron. Perfect for snacking, baking, and desserts. ",
   },
   {
     id: 111,
@@ -1352,7 +1352,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"High-quality, sun-dried raisins loaded with natural sweetness and essential nutrients. A delicious and healthy snack option. ",
   },
   {
     id: 112,
@@ -1362,7 +1362,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Crunchy and nutritious seeds packed with protein, magnesium, and healthy fats. Great for snacking, salads, or baking.",
   },
   {
     id: 113,
@@ -1372,7 +1372,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Naturally sweet and chewy dried figs, rich in fiber and essential minerals. A perfect energy-boosting snack.",
   },
   {
     id: 114,
@@ -1382,7 +1382,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium cashews with a rich, buttery flavor. Great for snacking, cooking, and adding to sweets and curries. ",
   },
   {
     id: 115,
@@ -1392,7 +1392,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" High-quality cashews with a creamy texture and delightful crunch. A nutritious and delicious addition to your diet.",
   },
   {
     id: 116,
@@ -1402,7 +1402,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Nutrient-rich walnuts packed with omega-3 fatty acids, antioxidants, and healthy fats. Perfect for brain health and overall well-being. ",
   },
   // Ghee & Oil
   {
@@ -1413,7 +1413,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Pure and aromatic ghee, rich in taste and nutrients. Perfect for cooking, frying, and enhancing the flavor of traditional Indian dishes.",
   },
   {
     id: 118,
@@ -1423,7 +1423,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium-quality ghee made from pure milk cream, offering rich aroma and taste. Ideal for daily cooking and sweets preparation.",
   },
   {
     id: 119,
@@ -1433,27 +1433,27 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Traditional and nutritious ghee with a delightful aroma. Perfect for making delicious meals and enhancing overall health. ",
   },
   {
     id: 120,
-    name: "Dalda 1kg",
+    name: "Dalda 1 litre",
     img: dalda_1kg,
     price: 140,
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A trusted brand for cooking and deep frying. Ideal for crispy snacks, baking, and adding richness to dishes.",
   },
   {
     id: 121,
-    name: "Dalda 5kg ",
+    name: "Dalda 5 litre ",
     img: dalda_5kg,
     price: 685,
     qnty:"5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" High-quality vanaspati ghee, perfect for bulk cooking needs, offering great taste and texture in every dish.",
   },
   {
     id: 122,
@@ -1463,7 +1463,7 @@ let allData=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Heart-friendly cooking oil enriched with essential nutrients. Suitable for frying, sautéing, and everyday cooking. ",
   },
   {
     id: 123,
@@ -1473,7 +1473,7 @@ let allData=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Conveniently packed and rich in essential fatty acids, ensuring a healthy and flavorful cooking experience.",
   },
   {
     id: 124,
@@ -1483,7 +1483,7 @@ let allData=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"A versatile and healthy cooking oil with a light texture, perfect for deep frying and sautéing. ",
   },
   {
     id: 125,
@@ -1493,7 +1493,7 @@ let allData=[
     qnty:"2.5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A larger pack of premium-quality oil, ideal for family cooking, ensuring health and taste in every meal.",
   },
   {
     id: 126,
@@ -1503,7 +1503,7 @@ let allData=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Convenient and budget-friendly cooking oil for daily use, maintaining nutrition and flavor in all dishes. ",
   },
   {
     id: 127,
@@ -1513,7 +1513,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Pure and aromatic ghee with a rich taste, perfect for adding traditional flavor to food and sweets. ",
   },
   {
     id: 128,
@@ -1523,7 +1523,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium desi ghee made from cow’s milk, offering an authentic taste and high nutritional value.",
   },
   {
     id: 129,
@@ -1533,7 +1533,7 @@ let allData=[
     qnty:"5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"A light and healthy cooking oil, perfect for deep frying, baking, and preparing delicious meals. ",
   },
   // Whole Masala
   {
@@ -1544,7 +1544,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Aromatic and flavorful ajwain seeds, perfect for digestion and enhancing the taste of parathas, curries, and snacks.",
   },
   {
     id: 131,
@@ -1554,7 +1554,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium-quality ajwain with a strong, pungent aroma, ideal for Indian cooking and health benefits.",
   },
   {
     id: 132,
@@ -1564,7 +1564,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Bold and smoky-flavored spice, essential for biryanis, curries, and spice blends. ",
   },
   {
     id: 133,
@@ -1574,7 +1574,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" High-quality black peppercorns, adding heat and depth to any dish, perfect for seasoning.",
   },
   {
     id: 134,
@@ -1584,7 +1584,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Fresh and aromatic black pepper, ideal for spice blends and everyday cooking.",
   },
   {
     id: 135,
@@ -1594,7 +1594,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Sweet and warm-flavored spice, great for desserts, curries, and beverages like tea.",
   },
   {
     id: 136,
@@ -1604,7 +1604,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Strong and aromatic whole cloves, perfect for flavoring biryanis, curries, and masala chai. ",
   },
   {
     id: 137,
@@ -1614,7 +1614,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium cloves with intense aroma, widely used in Indian and international cuisines.",
   },
   {
     id: 138,
@@ -1624,7 +1624,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Fragrant and earthy whole coriander seeds, great for seasoning and spice blends. ",
   },
   {
     id: 139,
@@ -1634,7 +1634,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Bitter and aromatic seeds, essential for pickles, curries, and medicinal uses. ",
   },
   {
     id: 140,
@@ -1644,7 +1644,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Refreshing and sweet whole fennel seeds, perfect as a mouth freshener and spice. ",
   },
   {
     id: 141,
@@ -1654,7 +1654,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium-quality saunf, enhancing curries, drinks, and digestive health. ",
   },
   {
     id: 142,
@@ -1664,7 +1664,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" A powerful blend of whole spices, essential for rich Indian curries and gravies.",
   },
   {
     id: 143,
@@ -1674,7 +1674,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Delicate mace spice with a warm aroma, used in biryanis, curries, and masala mixes. ",
   },
   {
     id: 144,
@@ -1684,7 +1684,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Aromatic and flavorful cumin seeds, essential for tempering Indian dishes and spice blends. ",
   },
   {
     id: 145,
@@ -1694,7 +1694,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Premium cumin seeds with intense flavor, great for cooking and medicinal benefits.",
   },
   {
     id: 146,
@@ -1704,7 +1704,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Dried fenugreek leaves, enhancing the flavor of curries, parathas, and dals. ",
   },
   {
     id: 147,
@@ -1714,7 +1714,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Whole red chilies, adding vibrant color and heat to various dishes.",
   },
   {
     id: 148,
@@ -1724,7 +1724,7 @@ let allData=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Strong and pungent mustard seeds, perfect for pickles, tempering, and Indian cuisine. ",
   },
   {
     id: 149,
@@ -1734,7 +1734,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Aromatic bay leaves, essential for biryanis, soups, and spice-infused dishes. ",
   },
   // sugar & Salt
   {
@@ -1745,7 +1745,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Natural Himalayan pink salt, rich in minerals, ideal for seasoning and detoxifying.",
   },
   {
     id: 151,
@@ -1755,7 +1755,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Flavorful and tangy black salt, perfect for chaats, chutneys, and digestive health. ",
   },
   {
     id: 152,
@@ -1765,7 +1765,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Iodized and refined Tata Salt, a household essential for balanced nutrition.",
   },
   {
     id: 153,
@@ -1775,7 +1775,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" Unprocessed rock salt, great for fasting, digestion, and mineral intake.",
   },
   {
     id: 154,
@@ -1785,7 +1785,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Pure and natural Tata rock salt, perfect for seasoning and health benefits. ",
   },
   {
     id: 155,
@@ -1795,7 +1795,7 @@ let allData=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium organic rock salt, packed with essential minerals for better health. ",
   },
   {
     id: 156,
@@ -1805,7 +1805,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Low-sodium salt, ideal for health-conscious individuals maintaining a balanced diet. ",
   },
   {
     id: 157,
@@ -1815,7 +1815,7 @@ let allData=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Artificial sweetener, a great alternative for diabetics and weight watchers. ",
   },
   {
     id: 158,
@@ -1825,7 +1825,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Pure, chemical-free sugar, ensuring a natural and healthier sweetening option. ",
   },
   {
     id: 159,
@@ -1835,7 +1835,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Premium-quality sugar, refined for everyday cooking and beverages. ",
   },
   {
     id: 160,
@@ -1845,7 +1845,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:"Fortified with essential minerals, this salt boosts immunity while enhancing flavor. ",
   },
   // Nuts & Seed
   {
@@ -1856,7 +1856,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Rich in protein and iron, this unpolished black masoor dal is great for a nutritious diet.",
   },
   {
     id: 162,
@@ -1866,7 +1866,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Premium-quality chana dal, ideal for making dal tadka, besan, and snacks. ",
   },
   {
     id: 163,
@@ -1876,7 +1876,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" High-protein whole chana, perfect for curries, sprouts, and traditional dishes.",
   },
   {
     id: 164,
@@ -1886,7 +1886,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Pure and unpolished chana, packed with fiber and essential nutrients.",
   },
   {
     id: 165,
@@ -1896,7 +1896,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Mildly sweet and nutty chana dal, great for protein-rich vegetarian meals.",
   },
   {
     id: 166,
@@ -1906,7 +1906,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Large-sized Kabuli chana, perfect for creamy chole and hummus recipes.",
   },
   {
     id: 167,
@@ -1916,7 +1916,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Premium-quality white chickpeas, rich in protein and fiber. ",
   },
   {
     id: 168,
@@ -1926,7 +1926,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Soft-textured and quick-cooking masoor dal, perfect for daily meals.",
   },
   {
     id: 169,
@@ -1936,7 +1936,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"A nutritious blend of different dals, ensuring balanced protein intake. ",
   },
   {
     id: 170,
@@ -1946,7 +1946,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Split moong dal with husk, packed with fiber and easy to digest.",
   },
   {
     id: 171,
@@ -1956,7 +1956,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Tata's high-quality moong dal, ideal for light and nutritious meals. ",
   },
   {
     id: 172,
@@ -1966,7 +1966,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Whole moong beans, perfect for sprouts, khichdi, and dals.",
   },
   {
     id: 173,
@@ -1976,7 +1976,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Unpolished moong dal, rich in protein and essential nutrients. ",
   },
   {
     id: 174,
@@ -1986,7 +1986,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Premium red kidney beans, ideal for making delicious rajma curry.",
   },
   {
     id: 175,
@@ -1996,7 +1996,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Soft and creamy rajma, best suited for rich gravies.",
   },
   {
     id: 176,
@@ -2006,7 +2006,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Protein-packed soya chunks, great for vegetarian curries and snacks.",
   },
   {
     id: 177,
@@ -2016,7 +2016,7 @@ let allData=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"High-protein soya chunks, perfect for muscle-building diets. ",
   },
   {
     id: 178,
@@ -2026,7 +2026,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Premium-quality arhar dal, rich in taste and essential nutrients. ",
   },
   {
     id: 179,
@@ -2036,7 +2036,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:"Whole urad dal, great for dal makhani and South Indian recipes. ",
   },
   {
     id: 180,
@@ -2046,7 +2046,7 @@ let allData=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" Dried white peas, perfect for making ragda, curries, and chaat.",
   },
 
 ]
@@ -2061,7 +2061,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 2,
@@ -2071,7 +2071,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 3,
@@ -2081,7 +2081,7 @@ let allFruit=[
     qnty:"12 piece",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 4,
@@ -2091,7 +2091,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 5,
@@ -2101,7 +2101,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
 
   },
   {
@@ -2112,7 +2112,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   
   },
   {
@@ -2123,7 +2123,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 8,
@@ -2133,7 +2133,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 9,
@@ -2143,7 +2143,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 10,
@@ -2153,7 +2153,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 11,
@@ -2163,7 +2163,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 12,
@@ -2173,7 +2173,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 13,
@@ -2183,7 +2183,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 14,
@@ -2193,7 +2193,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 15,
@@ -2203,7 +2203,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 16,
@@ -2213,7 +2213,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 17,
@@ -2223,7 +2223,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 18,
@@ -2233,7 +2233,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 19,
@@ -2243,7 +2243,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 20,
@@ -2253,7 +2253,7 @@ let allFruit=[
     qnty:"500 gm",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 21,
@@ -2263,7 +2263,7 @@ let allFruit=[
     qnty:"500 gm",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 22,
@@ -2273,7 +2273,7 @@ let allFruit=[
     qnty:"250 gm",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 23,
@@ -2283,7 +2283,7 @@ let allFruit=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 24,
@@ -2293,7 +2293,7 @@ let allFruit=[
     qnty:"4 piece",
     category: "Fruits",
     variety: "Citrus Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allFruit}
@@ -2305,7 +2305,7 @@ let fruit = [
     img: apple,
     price: 140,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 3,
@@ -2313,7 +2313,7 @@ let fruit = [
     img: banana,
      price: 60,
     qnty:"12 piece",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 24,
@@ -2321,7 +2321,7 @@ let fruit = [
     img: kiwi,
       price: 100,
     qnty:"4 piece",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 9,
@@ -2329,7 +2329,7 @@ let fruit = [
     img: mango,
      price: 120,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 5,
@@ -2337,7 +2337,7 @@ let fruit = [
     img: custardApple,
     price: 140,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 7,
@@ -2345,7 +2345,7 @@ let fruit = [
     img: guava,
       price: 80,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ];
 export { fruit };
@@ -2359,7 +2359,7 @@ let allVegi=[
     category: "Vegetables",
     variety: "Marrow Vegi",
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 26,
@@ -2369,7 +2369,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 28,
@@ -2379,7 +2379,7 @@ let allVegi=[
     qnty:"500 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 29,
@@ -2389,7 +2389,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 30,
@@ -2399,7 +2399,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 31,
@@ -2409,7 +2409,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Fruits",
     variety: "Tropical Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 32,
@@ -2419,7 +2419,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 33,
@@ -2429,7 +2429,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 34,
@@ -2439,7 +2439,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 35,
@@ -2449,7 +2449,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 36,
@@ -2459,7 +2459,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 37,
@@ -2469,7 +2469,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 38,
@@ -2479,7 +2479,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 39,
@@ -2489,7 +2489,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 40,
@@ -2499,7 +2499,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 41,
@@ -2509,7 +2509,7 @@ let allVegi=[
     qnty:"500 gm",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 42,
@@ -2519,7 +2519,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 43,
@@ -2529,7 +2529,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 44,
@@ -2539,7 +2539,7 @@ let allVegi=[
     qnty:"500 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 45,
@@ -2549,7 +2549,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 46,
@@ -2559,7 +2559,7 @@ let allVegi=[
     qnty:"500 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 47,
@@ -2569,7 +2569,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 48,
@@ -2579,7 +2579,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 49,
@@ -2589,7 +2589,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 50,
@@ -2599,7 +2599,7 @@ let allVegi=[
     qnty:"100 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 51,
@@ -2609,7 +2609,7 @@ let allVegi=[
     qnty:"100 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 52,
@@ -2619,7 +2619,7 @@ let allVegi=[
     qnty:"100 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 53,
@@ -2629,7 +2629,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 54,
@@ -2639,7 +2639,7 @@ let allVegi=[
     qnty:"12 piece",
     category: "Vegetables",
     variety: "Marrow Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 55,
@@ -2649,7 +2649,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 56,
@@ -2659,7 +2659,7 @@ let allVegi=[
     qnty:"100 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 57,
@@ -2669,7 +2669,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 58,
@@ -2679,7 +2679,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 59,
@@ -2689,7 +2689,7 @@ let allVegi=[
     qnty:"1 kg",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 60,
@@ -2699,7 +2699,7 @@ let allVegi=[
     qnty:"250 gm",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allVegi}
@@ -2711,7 +2711,7 @@ let vegi = [
     img: brocoli,
       price: 80,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 34,
@@ -2719,7 +2719,7 @@ let vegi = [
     img: onion,
       price: 50,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 37,
@@ -2727,7 +2727,7 @@ let vegi = [
     img: pumpkin,
      price: 60,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 44,
@@ -2735,7 +2735,7 @@ let vegi = [
     img: spinach,
     price: 40,
     qnty:"250 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 31,
@@ -2743,7 +2743,7 @@ let vegi = [
     img: capsicum,
      price: 60,
     qnty:"500 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 40,
@@ -2751,7 +2751,7 @@ let vegi = [
     img: cucumber,
      price: 60,
     qnty:"1 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ];
 export { vegi };
@@ -2765,7 +2765,7 @@ let allGrains=[
     category: "Grocery",
     variety: "Grains",
     qnty:"5 kg",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 62,
@@ -2775,7 +2775,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 63,
@@ -2785,7 +2785,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 64,
@@ -2795,7 +2795,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 65,
@@ -2805,7 +2805,7 @@ let allGrains=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 66,
@@ -2815,7 +2815,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 67,
@@ -2825,7 +2825,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 68,
@@ -2835,7 +2835,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 69,
@@ -2845,7 +2845,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 70,
@@ -2855,7 +2855,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 71,
@@ -2865,7 +2865,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 72,
@@ -2875,7 +2875,7 @@ let allGrains=[
     qnty:"5 kg",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 73,
@@ -2885,7 +2885,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 74,
@@ -2895,7 +2895,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 75,
@@ -2905,7 +2905,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 76,
@@ -2915,7 +2915,7 @@ let allGrains=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Grains",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allGrains}
@@ -2927,7 +2927,7 @@ let grains=[
         img: atta_fortune,
          price: 210,
         qnty:"5 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 66,
@@ -2935,7 +2935,7 @@ let grains=[
         img: rice_fortune,
          price: 535,
         qnty:"5 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 73,
@@ -2943,7 +2943,7 @@ let grains=[
         img: poha_fortune,
          price: 60,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 63,
@@ -2951,7 +2951,7 @@ let grains=[
         img: besan_fortune,
           price: 80,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 65,
@@ -2959,7 +2959,7 @@ let grains=[
         img: daliya_rajdhani,
           price: 50,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 74,
@@ -2967,7 +2967,7 @@ let grains=[
         img: maida_fortune,
         price: 55,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 
 ]
@@ -2982,7 +2982,7 @@ let allMasala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 78,
@@ -2992,7 +2992,7 @@ let allMasala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 79,
@@ -3002,7 +3002,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 80,
@@ -3012,7 +3012,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 81,
@@ -3022,7 +3022,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 82,
@@ -3032,7 +3032,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 83,
@@ -3042,7 +3042,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 84,
@@ -3052,7 +3052,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 85,
@@ -3062,7 +3062,7 @@ let allMasala=[
     qnty:"200 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 86,
@@ -3072,7 +3072,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 87,
@@ -3082,7 +3082,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 88,
@@ -3092,7 +3092,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 89,
@@ -3102,7 +3102,7 @@ let allMasala=[
     qnty:"150 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 90,
@@ -3112,7 +3112,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 91,
@@ -3122,7 +3122,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 92,
@@ -3132,7 +3132,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 93,
@@ -3142,7 +3142,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 94,
@@ -3152,7 +3152,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   { 
     id: 95,
@@ -3162,7 +3162,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 96,
@@ -3172,7 +3172,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 97,
@@ -3182,7 +3182,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 98,
@@ -3192,7 +3192,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 99,
@@ -3202,7 +3202,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 100,
@@ -3212,7 +3212,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 101,
@@ -3222,7 +3222,7 @@ let allMasala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 102,
@@ -3232,7 +3232,7 @@ let allMasala=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 103,
@@ -3242,7 +3242,7 @@ let allMasala=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Masala",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
 ]
 export {allMasala}
@@ -3254,7 +3254,7 @@ let masala = [
     img: chicken_masala_catch,
       price: 80,
     qnty:"100 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 81,
@@ -3262,7 +3262,7 @@ let masala = [
     img: chilli_powder_catch,
      price: 90,
     qnty:"100 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 82,
@@ -3270,7 +3270,7 @@ let masala = [
     img: coriander_powder_catch,
      price: 35,
     qnty:"100 gm",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 85,
@@ -3278,7 +3278,7 @@ let masala = [
     img: garam_masala_catch,
       price: 100,
     qnty:"200 gm",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 94,
@@ -3286,7 +3286,7 @@ let masala = [
     img: kitchen_king_mdh,
      price: 90,
     qnty:"100 gm",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 96,
@@ -3294,7 +3294,7 @@ let masala = [
     img: meat_masala_catch,
      price: 90,
     qnty:"100 gm",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
 ];
 export {masala}
@@ -3308,7 +3308,7 @@ let allDry_Fruits=[
     category: "Grocery",
     variety: "Dry Fruits",
     qnty:"250 gm",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 105,
@@ -3318,7 +3318,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 106,
@@ -3328,7 +3328,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 107,
@@ -3338,7 +3338,7 @@ let allDry_Fruits=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 108,
@@ -3348,7 +3348,7 @@ let allDry_Fruits=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 109,
@@ -3358,7 +3358,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 110,
@@ -3368,7 +3368,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 111,
@@ -3378,7 +3378,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 112,
@@ -3388,7 +3388,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 113,
@@ -3398,7 +3398,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 114,
@@ -3408,7 +3408,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 115,
@@ -3418,7 +3418,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 116,
@@ -3428,7 +3428,7 @@ let allDry_Fruits=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Dry Fruits",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allDry_Fruits}
@@ -3440,7 +3440,7 @@ let dry_fruits=[
         img: almonds,
          price: 280,
         qnty:"250 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 105,
@@ -3448,7 +3448,7 @@ let dry_fruits=[
         img: dates,
          price: 200,
         qnty:"250 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 106,
@@ -3456,7 +3456,7 @@ let dry_fruits=[
         img: peanut,
          price: 160,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 108,
@@ -3464,7 +3464,7 @@ let dry_fruits=[
         img: makhana_zoff,
          price: 200,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 109,
@@ -3472,7 +3472,7 @@ let dry_fruits=[
         img: chia_seeds,
           price: 150,
         qnty:"250 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 111,
@@ -3480,7 +3480,7 @@ let dry_fruits=[
         img: raisins_tata,
          price: 200,
         qnty:"250 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 ]
 export {dry_fruits}
@@ -3494,7 +3494,7 @@ let allGhee_oil=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 118,
@@ -3504,7 +3504,7 @@ let allGhee_oil=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 119,
@@ -3514,7 +3514,7 @@ let allGhee_oil=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 120,
@@ -3524,7 +3524,7 @@ let allGhee_oil=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 121,
@@ -3534,7 +3534,7 @@ let allGhee_oil=[
     qnty:"5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 122,
@@ -3544,7 +3544,7 @@ let allGhee_oil=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 123,
@@ -3554,7 +3554,7 @@ let allGhee_oil=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 124,
@@ -3564,7 +3564,7 @@ let allGhee_oil=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 125,
@@ -3574,7 +3574,7 @@ let allGhee_oil=[
     qnty:"2.5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 126,
@@ -3584,7 +3584,7 @@ let allGhee_oil=[
     qnty:"1 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 127,
@@ -3594,7 +3594,7 @@ let allGhee_oil=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 128,
@@ -3604,7 +3604,7 @@ let allGhee_oil=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 129,
@@ -3614,7 +3614,7 @@ let allGhee_oil=[
     qnty:"5 litre",
     category: "Grocery",
     variety: "Ghee Oil",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allGhee_oil}
@@ -3626,7 +3626,7 @@ let ghee_oil=[
         img: ghee_ashirvaad,
          price: 500,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 122,
@@ -3634,7 +3634,7 @@ let ghee_oil=[
         img: oil_dhara,
          price: 170,
         qnty:"1 litre",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 120,
@@ -3642,7 +3642,7 @@ let ghee_oil=[
         img: dalda_1kg,
          price: 200,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 129,
@@ -3650,7 +3650,7 @@ let ghee_oil=[
         img: refine_fortune,
         price: 850,
         qnty:"5 litre",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 128,
@@ -3658,7 +3658,7 @@ let ghee_oil=[
         img: ghee_govardhan,
          price: 600,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 124,
@@ -3666,7 +3666,7 @@ let ghee_oil=[
         img: oil_fortune,
         price: 175,
         qnty:"1 litre",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 ]
 export {ghee_oil}
@@ -3680,7 +3680,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 131,
@@ -3690,7 +3690,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 132,
@@ -3700,7 +3700,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 133,
@@ -3710,7 +3710,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 134,
@@ -3720,7 +3720,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 135,
@@ -3730,7 +3730,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 136,
@@ -3740,7 +3740,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 137,
@@ -3750,7 +3750,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 138,
@@ -3760,7 +3760,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 139,
@@ -3770,7 +3770,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 140,
@@ -3780,7 +3780,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 141,
@@ -3790,7 +3790,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 142,
@@ -3800,7 +3800,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 143,
@@ -3810,7 +3810,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 144,
@@ -3820,7 +3820,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 145,
@@ -3830,7 +3830,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 146,
@@ -3840,7 +3840,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 147,
@@ -3850,7 +3850,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 148,
@@ -3860,7 +3860,7 @@ let allWhole_masala=[
     qnty:"100 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 149,
@@ -3870,7 +3870,7 @@ let allWhole_masala=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Whole masala",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allWhole_masala}
@@ -3882,7 +3882,7 @@ let whole_masala=[
         img: ajwain_zoff,
         price: 40,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 135,
@@ -3890,7 +3890,7 @@ let whole_masala=[
         img: cinnamon,
          price: 45,
         qnty:"50 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 142,
@@ -3898,7 +3898,7 @@ let whole_masala=[
         img: garam_masala,
       price: 75,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 141,
@@ -3906,7 +3906,7 @@ let whole_masala=[
         img: funnel_zoff,
          price: 60,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 144,
@@ -3914,7 +3914,7 @@ let whole_masala=[
         img: jeera_catch,
          price: 45,
         qnty:"100 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 149,
@@ -3922,7 +3922,7 @@ let whole_masala=[
         img: tejpatta,
          price: 30,
         qnty:"50 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 ]
 export {whole_masala}
@@ -3936,7 +3936,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 151,
@@ -3946,7 +3946,7 @@ let allSugar_salt=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 152,
@@ -3956,7 +3956,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 153,
@@ -3966,7 +3966,7 @@ let allSugar_salt=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 154,
@@ -3976,7 +3976,7 @@ let allSugar_salt=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 155,
@@ -3986,7 +3986,7 @@ let allSugar_salt=[
     qnty:"500 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 156,
@@ -3996,7 +3996,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 157,
@@ -4006,7 +4006,7 @@ let allSugar_salt=[
     qnty:"50 gm",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 158,
@@ -4016,7 +4016,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 159,
@@ -4026,7 +4026,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
   {
     id: 160,
@@ -4036,7 +4036,7 @@ let allSugar_salt=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Sugar Salt",
-    offer: "10% off",qty:0,
+    offer: "10% off",qty:0, description:" ",
   },
 ]
 export {allSugar_salt}
@@ -4048,7 +4048,7 @@ let suger_salt=[
         img: salt_pink,
       price: 75,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 151,
@@ -4056,7 +4056,7 @@ let suger_salt=[
         img: salt_black,
          price: 45,
         qnty:"200 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 152,
@@ -4064,7 +4064,7 @@ let suger_salt=[
         img: salt,
          price: 35,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 155,
@@ -4072,7 +4072,7 @@ let suger_salt=[
         img: rock_salt_organic,
           price: 50,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 156,
@@ -4080,7 +4080,7 @@ let suger_salt=[
         img: salt_lite,
         price: 40,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 158,
@@ -4088,7 +4088,7 @@ let suger_salt=[
         img: sugar_sulpharfree,
          price: 60,
         qnty:"1 kg",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 ]
 export {suger_salt}
@@ -4102,7 +4102,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 162,
@@ -4112,7 +4112,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 163,
@@ -4122,7 +4122,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 164,
@@ -4132,7 +4132,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 165,
@@ -4142,7 +4142,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 166,
@@ -4152,7 +4152,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 167,
@@ -4162,7 +4162,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 168,
@@ -4172,7 +4172,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 169,
@@ -4182,7 +4182,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 170,
@@ -4192,7 +4192,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 171,
@@ -4202,7 +4202,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 172,
@@ -4212,7 +4212,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 173,
@@ -4222,7 +4222,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 174,
@@ -4232,7 +4232,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 175,
@@ -4242,7 +4242,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 176,
@@ -4252,7 +4252,7 @@ let allNuts_seed=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 177,
@@ -4262,7 +4262,7 @@ let allNuts_seed=[
     qnty:"250 gm",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 178,
@@ -4272,7 +4272,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 179,
@@ -4282,7 +4282,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
   {
     id: 180,
@@ -4292,7 +4292,7 @@ let allNuts_seed=[
     qnty:"1 kg",
     category: "Grocery",
     variety: "Nuts Seed",
-    offer: "15% off",qty:0,
+    offer: "15% off",qty:0, description:" ",
   },
 ]
 export {allNuts_seed}
@@ -4304,7 +4304,7 @@ let nuts_Seeds=[
         img: chana_rajdhani,
          price: 60,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 176,
@@ -4312,7 +4312,7 @@ let nuts_Seeds=[
         img: soyachunk_fortune,
         price: 55,
         qnty:"250 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 175,
@@ -4320,7 +4320,7 @@ let nuts_Seeds=[
         img: rajma_fortune,
           price: 100,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 169,
@@ -4328,7 +4328,7 @@ let nuts_Seeds=[
         img: mixed_dal,
         price: 140,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 167,
@@ -4336,7 +4336,7 @@ let nuts_Seeds=[
         img: kabuli_fortune,
          price: 90,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
       {
         id: 162,
@@ -4344,7 +4344,7 @@ let nuts_Seeds=[
         img: chanaDal_fortune,
          price: 110,
         qnty:"500 gm",
-        offer: "10% off",qty:0,
+        offer: "10% off",qty:0, description:" ",
       },
 ]
 export {nuts_Seeds}

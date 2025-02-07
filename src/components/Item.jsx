@@ -49,11 +49,11 @@ function Item(props) {
             const totalPrice = quantity * val.price || val.price;
 
             return (
-              <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px]" key={ind}
+              <div className="flex flex-col border rounded shadow-md p-2 items-center gap-2 w-[155px] sm:w-[180px] hover:border-[#9be15d]" key={ind}
               >
                 <div className="max-w-full w-auto h-[100px] p-3 cursor-pointer" onClick={() => navigate(`/allData/${val.id}`)} // Navigate to Product Details 
                 >
-                  <img src={val.img} alt={val.name} className="w-full h-full object-cover" />
+                  <img src={val.img} alt={val.name} className="w-full h-full object-contain" />
                 </div>
                 <h1 className='text-sm'>{val.name}</h1>
                 <span className='text-sm text-gray-500'>{val.qnty}</span>

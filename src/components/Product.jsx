@@ -62,7 +62,7 @@ function Product() {
                     <img
                       src={val.img}
                       alt={val.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     />
                   </div>
                   <h1 className="text-sm">{val.name}</h1>

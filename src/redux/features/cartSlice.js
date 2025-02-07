@@ -5,7 +5,7 @@ const initialState={
     cartItem:[]
 }
 
-// card Slice
+// cart Slice
 const cartSlice=createSlice({
     name:"cartslice",
     initialState,
