@@ -65,13 +65,13 @@ function ProductDetail() {
 
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start justify-center lg:gap-5 mt-5 px-4 lg:px-16">
+      <div className="flex flex-col lg:flex-row items-start lg:justify-center lg:gap-2 mt-5 px-2 lg:px-36">
         {/* Left Section - Product Images */}
-        <div className="flex gap-1">
+        <div className="flex gap-1 mx-auto">
           {/* Small Thumbnails */}
           <div className="flex flex-col gap-2 p-1">
             {images.map((img, index) => (
-              <div className="w-20 h-20" key={index}>
+              <div className="w-16 h-16 sm:w-20 sm:h-20" key={index}>
               <img
                 src={img}
                 alt={`Thumbnail ${index + 1}`}
@@ -87,7 +87,7 @@ function ProductDetail() {
           </div>
 
           {/* Main Image */}
-          <Card className="w-[350px] sm:w-[400px] h-[350px] flex justify-center border shadow-none ring-0">
+          <Card className="w-[260px] h-[280px] overflow-x-auto webkit sm:w-[350px] md:w-[400px] md:h-[350px] flex justify-center border shadow-none ring-0">
             <CardHeader className="h-auto w-full flex justify-center shadow-none ring-0 bg-transparent">
               <img
                 src={images[selectedImageIndex]}
@@ -97,9 +97,9 @@ function ProductDetail() {
             </CardHeader>
           </Card>
         </div>
-
         {/* Right Section - Product Details */}
-        <Card className="w-full lg:w-[50%] p-3 border shadow-none ring-0">
+        <Card className="w-full lg:w-[50%] p-2 lg:border shadow-none ring-0">
+        <hr  className="block bg-gray-100 w-full lg:hidden"/>
           <CardBody>
             <Typography variant="h3" className="font-bold text-gray-900">
               {name}

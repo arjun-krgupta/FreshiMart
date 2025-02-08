@@ -24,10 +24,10 @@ function Cart() {
   }, [cartItem]);
 
   return (
-    <div className='max-w-6xl mx-auto p-6 mt-3'>
+    <div className='max-w-5xl mx-auto p-5'>
       {/* Header */}
-      <div className="w-full bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-white py-5 px-6 rounded-lg shadow-lg text-center">
-        <h1 className="text-3xl font-bold">Shopping Cart</h1>
+      <div className="w-full bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-white py-[10px]  sm:py-[14px] px-6 rounded-lg shadow-lg text-center">
+        <h1 className="text-xl sm:text-3xl font-bold">Shopping Cart</h1>
       </div>
 
       {cartItem.length > 0 ? (
@@ -36,7 +36,7 @@ function Cart() {
             <thead className='bg-gray-100'>
               <tr>
                 {TABLE_HEAD.map((head, index) => (
-                  <th key={index} className="p-4 text-gray-700 text-md font-semibold">{head}</th>
+                  <th key={index} className="p-3 sm:p-4 text-gray-700 text-sm sm:text-md font-semibold">{head}</th>
                 ))}
               </tr>
             </thead>
@@ -45,33 +45,33 @@ function Cart() {
                 <tr key={index} className='border-b transition-all'>
                   <td className="p-4">
                     <MdDelete 
-                      className='text-2xl mx-auto text-red-500 cursor-pointer hover:text-red-700 transition-all' 
+                      className='text-xl sm:text-2xl mx-auto text-red-500 cursor-pointer hover:text-red-700 transition-all' 
                       onClick={() => dispatch(removeCart(data.id))} 
                     />
                   </td>
-                  <td className="p-4 text-gray-800 font-medium">{data.name}</td>
-                  <td className="p-4 flex justify-center h-24 w-24 mx-auto">
+                  <td className="p-4 text-gray-800 font-medium text-sm sm:text-base">{data.name}</td>
+                  <td className="p-4 flex justify-center h-20 w-20 sm:h-24 sm:w-24 mx-auto">
                     <img src={data.img} alt={data.name} className='h-auto w-full object-contain' />
                   </td>
                   <td className="p-4">
                     <div className='flex items-center gap-3 justify-center'>
-                      <Button size='sm' variant='outlined' color="gray" onClick={() => data.qty <= 1 ? dispatch(removeCart(data.id)) : dispatch(removeSingleItem(data))}>
+                      <Button className='p-1 sm:p-2' variant='outlined' onClick={() => data.qty <= 1 ? dispatch(removeCart(data.id)) : dispatch(removeSingleItem(data))}>
                         <FaMinus />
                       </Button>
-                      <span className='px-4 py-1 border rounded text-sm font-semibold bg-gray-100'>{data.qty}</span>
-                      <Button size='sm' variant='outlined' color="gray" onClick={() => dispatch(addCart(data))}>
+                      <span className='px-2 border rounded text-sm sm:text-base font-semibold bg-gray-100'>{data.qty}</span>
+                      <Button className='p-1 sm:p-2' variant='outlined' onClick={() => dispatch(addCart(data))}>
                         <FaPlus />
                       </Button>
                     </div>
                   </td>
-                  <td className="p-4 text-gray-800 font-semibold">₹{data.qty * data.price}</td>
+                  <td className="p-4 text-gray-800 font-semibold text-sm sm:text-base">₹{data.qty * data.price}</td>
                 </tr>
               ))}
             </tbody>
             <tfoot className='bg-gray-100'>
-              <tr>
-                <td colSpan={3} className="p-4 font-semibold text-gray-800 text-left pl-10">Total Quantity : {totalQty}</td>
-                <td colSpan={2} className="p-4 font-semibold text-gray-800 text-right pe-20">Total Amount : ₹{totalPrice}</td>
+              <tr className='text-sm sm:text-md'>
+                <td colSpan={3} className="p-3 sm:p-4 font-semibold text-gray-800 text-left">Total Quantity : {totalQty}</td>
+                <td colSpan={2} className="p-3 sm:p-4 font-semibold text-gray-800 text-right ">Total Amount : ₹{totalPrice}</td>
               </tr>
             </tfoot>
           </table>

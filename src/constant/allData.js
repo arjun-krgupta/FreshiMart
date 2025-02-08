@@ -477,7 +477,7 @@ let allData=[
     description:"Broccoli is a nutrient-rich vegetable known for its dense green florets and crunchy texture. Packed with vitamins, fiber, and antioxidants, it’s a versatile vegetable that can be enjoyed raw, steamed, or cooked in various dishes.",
     category: "Vegetables",
     variety: "Root Vegi",
-    offer: "10% off",qty:0, description:" ",
+    offer: "10% off",qty:0,
   },
   {
     id: 28,
@@ -488,7 +488,7 @@ let allData=[
     description:"Beans are a popular leafy green vegetable known for their tender pods and fresh flavor. They are a great source of fiber, vitamins, and minerals, making them a healthy addition to any meal.",
     category: "Vegetables",
     variety: "Leafy Green",
-    offer: "10% off",qty:0, description:" ",
+    offer: "10% off",qty:0,
   },
   {
     id: 29,
