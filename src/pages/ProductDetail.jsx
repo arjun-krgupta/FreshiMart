@@ -87,8 +87,8 @@ function ProductDetail() {
           </div>
 
           {/* Main Image */}
-          <Card className="w-[240px] h-[260px] overflow-x-auto webkit sm:w-[350px] md:w-[400px] md:h-[350px] flex justify-center border shadow-none ring-0">
-            <CardHeader className="h-auto w-full flex justify-center shadow-none ring-0 bg-transparent">
+          <Card className="w-[240px] h-[260px] overflow-x-auto webkit sm:w-[350px] md:w-[400px] md:h-[350px] flex justify-center border shadow-none ring-0 p-10">
+            <CardHeader className="h-auto w-full flex justify-center mx-auto  items-center shadow-none ring-0 bg-transparent">
               <img
                 src={images[selectedImageIndex]}
                 alt={name}
