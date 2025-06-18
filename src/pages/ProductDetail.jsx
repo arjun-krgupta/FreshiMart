@@ -165,13 +165,21 @@ function ProductDetail() {
                   </Button>
                 </div>
               ) : (
-                <Button
+           <div className="flex gap-3 w-full mx-3">
+                 <Button
                   variant="gradient"
-                  className="w-full sm:w-[200px] mt-4 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-sm"
+                  className="w-full mt-4 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-sm"
                   onClick={handleAddToCart}
                 >
                   ADD TO CART
                 </Button>
+                      <Button
+                  className="w-full mt-4 bg-yellow-800 text-sm"
+                  onClick={handleAddToCart}
+                >
+                  PLACE ORDER
+                </Button>
+           </div>
               )}
             </div>
           </CardBody>
