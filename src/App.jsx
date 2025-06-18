@@ -23,6 +23,7 @@ import Sugar_Salt from './pages/Sugar_Salt';
 import { SearchProvider} from "./context/SearchContext";
 import Product from './components/Product';
 import ProductDetail from './pages/ProductDetail';
+import PlaceOrder from './pages/PlaceOrder';
 
 
 
@@ -49,6 +50,7 @@ function App(props) {
     <Route path='/allWhole-Masala'  element={<Whole_Masala/>} />
     <Route path='/allSugar-Salt'  element={<Sugar_Salt/>} />
     <Route path='*'  element={<NotFound/>} />
+     <Route path='/placeOrder'  element={<PlaceOrder/>} />
     <Route path='/service'  element={<Service/>} />
     <Route path='/contact'  element={<Contact/>} />
     <Route path='/forget'  element={<ForgetPassword/>} />

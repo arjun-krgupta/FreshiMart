@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addCart,
@@ -15,6 +15,8 @@ import {
   CardHeader,
   Typography,
 } from "@material-tailwind/react";
+
+
 
 function ProductDetail() {
   const { id } = useParams();
@@ -63,32 +65,34 @@ function ProductDetail() {
   const handleDecrement = () => dispatch(removeCart(product.id));
   const handleSingleDecrement = () => dispatch(removeSingleItem(product));
 
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start lg:justify-center lg:gap-2 mt-5 px-2 lg:px-36">
+      <div className="flex flex-col lg:flex-row items-start lg:justify-center lg:gap-2 mt-5 px-2 lg:px-24 xl:px-32">
         {/* Left Section - Product Images */}
-        <div className="flex gap-1 mx-auto">
+        <div className="flex lg:w-[50%] gap-1 mx-auto">
           {/* Small Thumbnails */}
           <div className="flex flex-col gap-2 p-1">
             {images.map((img, index) => (
               <div className="w-16 h-16 sm:w-20 sm:h-20" key={index}>
-              <img
-                src={img}
-                alt={`Thumbnail ${index + 1}`}
-                className={`h-full w-full object-contain p-2 border rounded cursor-pointer transition-all duration-300 ${
-                  selectedImageIndex === index
-                    ? "border-[#9be15d]"
-                    : "border-gray-300"
-                }`}
-                onClick={() => handleImageClick(index)}
-              />
+                <img
+                  src={img}
+                  alt={`Thumbnail ${index + 1}`}
+                  className={`h-full w-full object-contain p-2 border rounded cursor-pointer transition-all duration-300 ${
+                    selectedImageIndex === index
+                      ? "border-[#9be15d]"
+                      : "border-gray-300"
+                  }`}
+                  onClick={() => handleImageClick(index)}
+                />
               </div>
             ))}
           </div>
 
           {/* Main Image */}
-          <Card className="w-[240px] h-[260px] overflow-x-auto webkit sm:w-[350px] md:w-[400px] md:h-[350px] flex justify-center border shadow-none ring-0 p-10">
-            <CardHeader className="h-auto w-full flex justify-center mx-auto  items-center shadow-none ring-0 bg-transparent">
+          <Card className="w-[240px] h-[260px] overflow-x-auto webkit sm:w-[300px] sm:h-[350px] flex justify-center border shadow-none ring-0 p-4">
+            <CardHeader className="h-auto w-full flex justify-center mx-auto items-center shadow-none ring-0 bg-transparent">
               <img
                 src={images[selectedImageIndex]}
                 alt={name}
@@ -97,9 +101,10 @@ function ProductDetail() {
             </CardHeader>
           </Card>
         </div>
+
         {/* Right Section - Product Details */}
-        <Card className="w-full lg:w-[50%] p-2 lg:border shadow-none ring-0">
-        <hr  className="block bg-gray-100 w-full lg:hidden"/>
+        <Card className="w-full px-3 sm:px-4 md:px-20 py-2 lg:p-2 lg:border shadow-none ring-0">
+          <hr className="block bg-gray-100 w-full lg:hidden" />
           <CardBody>
             <Typography variant="h3" className="font-bold text-gray-900">
               {name}
@@ -129,7 +134,7 @@ function ProductDetail() {
             {/* Product Description */}
             <Typography
               variant="paragraph"
-              className="text-gray-700 mt-4 text-justify leading-relaxed"
+              className="text-gray-700 mt-4 pe-0 lg:pe-5 text-justify leading-relaxed"
             >
               {description}
             </Typography>
@@ -165,22 +170,23 @@ function ProductDetail() {
                   </Button>
                 </div>
               ) : (
-           <div className="flex gap-3 w-full mx-3">
-                 <Button
-                  variant="gradient"
-                  className="w-full mt-4 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-sm"
-                  onClick={handleAddToCart}
-                >
-                  ADD TO CART
-                </Button>
-                      <Button
-                  className="w-full mt-4 bg-yellow-800 text-sm"
-                  onClick={handleAddToCart}
-                >
-                  PLACE ORDER
-                </Button>
-           </div>
-              )}
+                <div className="flex gap-3 w-full mx-3 px-3 lg:px-1">
+                  <Button
+                    variant="gradient"
+                    className="w-full mt-4 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-sm"
+                    onClick={handleAddToCart}
+                  >
+                    ADD TO CART
+                  </Button>
+                
+                  <Button
+                    className="w-full mt-4 bg-yellow-800 text-sm"
+                    onClick={() => navigate("/placeOrder")}
+                  >
+                    PLACE ORDER
+                  </Button>
+                </div>
+ )}
             </div>
           </CardBody>
         </Card>
