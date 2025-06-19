@@ -16,8 +16,6 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-
-
 function ProductDetail() {
   const { id } = useParams();
   const dispatch = useDispatch();
@@ -142,34 +140,45 @@ function ProductDetail() {
             {/* Cart Controls */}
             <div className="flex items-center mt-6">
               {quantity > 0 ? (
-                <div className="flex items-center gap-4">
-                  <Button
-                    color="red"
-                    variant="gradient"
-                    size="sm"
-                    className="px-4"
-                    onClick={
-                      quantity <= 1 ? handleDecrement : handleSingleDecrement
-                    }
-                  >
-                    -
-                  </Button>
+                <div className="flex flex-col w-full gap-3">
+                  <div className="flex items-center gap-4">
+                    <Button
+                      color="red"
+                      variant="gradient"
+                      size="sm"
+                      className="px-4"
+                      onClick={
+                        quantity <= 1 ? handleDecrement : handleSingleDecrement
+                      }
+                    >
+                      -
+                    </Button>
 
-                  <Typography variant="h5" className="font-medium">
-                    {quantity}
-                  </Typography>
+                    <Typography variant="h5" className="font-medium">
+                      {quantity}
+                    </Typography>
 
+                    <Button
+                      color="green"
+                      variant="gradient"
+                      size="sm"
+                      className="px-4"
+                      onClick={handleIncrement}
+                    >
+                      +
+                    </Button>
+                  </div>
+
+                  {/* 👇 Place Order should still be available */}
                   <Button
-                    color="green"
-                    variant="gradient"
-                    size="sm"
-                    className="px-4"
-                    onClick={handleIncrement}
+                    className="w-full bg-yellow-800 text-sm"
+                    onClick={() => navigate("/placeOrder")}
                   >
-                    +
+                    PLACE ORDER
                   </Button>
                 </div>
               ) : (
+                // Show Add to Cart & Place Order initially
                 <div className="flex gap-3 w-full mx-3 px-3 lg:px-1">
                   <Button
                     variant="gradient"
@@ -178,15 +187,17 @@ function ProductDetail() {
                   >
                     ADD TO CART
                   </Button>
-                
                   <Button
                     className="w-full mt-4 bg-yellow-800 text-sm"
-                    onClick={() => navigate("/placeOrder")}
+                    onClick={() => {
+                      handleAddToCart();
+                      navigate("/placeOrder");
+                    }}
                   >
                     PLACE ORDER
                   </Button>
                 </div>
- )}
+              )}
             </div>
           </CardBody>
         </Card>
