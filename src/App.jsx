@@ -24,6 +24,7 @@ import { SearchProvider} from "./context/SearchContext";
 import Product from './components/Product';
 import ProductDetail from './pages/ProductDetail';
 import PlaceOrder from './pages/PlaceOrder';
+import BuyNow from './pages/BuyNow';
 
 
 
@@ -39,7 +40,7 @@ function App(props) {
     <Route path='/signup'  element={<SignUp/>} />
     <Route path='/login'  elemen={<Login/>} />
     <Route path='/allData' element={<Product/>} />
-    <Route path='/allData/:id' element={<ProductDetail/>} />
+    <Route path='/allData/:id' element={<ProductDetail />} />
     <Route path='/allFruit'  element={<Fruit/>} />
     <Route path='/allVegetables'  element={<Vegi/>} />
     <Route path='/allPowder-Masala'  element={<Masala/>} />
@@ -51,6 +52,7 @@ function App(props) {
     <Route path='/allSugar-Salt'  element={<Sugar_Salt/>} />
     <Route path='*'  element={<NotFound/>} />
      <Route path='/placeOrder'  element={<PlaceOrder/>} />
+     <Route path='/buyNow'  element={<BuyNow/>} />
     <Route path='/service'  element={<Service/>} />
     <Route path='/contact'  element={<Contact/>} />
     <Route path='/forget'  element={<ForgetPassword/>} />

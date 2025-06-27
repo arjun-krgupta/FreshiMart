@@ -4,6 +4,7 @@ import { MdDelete } from "react-icons/md";
 import { Card, Typography, Button } from "@material-tailwind/react";
 import { useDispatch, useSelector } from 'react-redux';
 import { addCart, removeCart, removeSingleItem } from '../redux/features/cartSlice';
+import { useNavigate } from 'react-router-dom';
 
 const TABLE_HEAD = ["Action", "Name", "Product", "Quantity", "Amount"];
 
@@ -12,6 +13,7 @@ function Cart() {
   const dispatch = useDispatch();
   const [totalPrice, setTotalPrice] = useState(0);
   const [totalQty, setTotalQty] = useState(0);
+  const navigate=useNavigate()
 
   useEffect(() => {
     let price = 0, quantity = 0;
@@ -24,6 +26,7 @@ function Cart() {
   }, [cartItem]);
 
   return (
+    <>
     <div className='max-w-5xl mx-auto p-5'>
       {/* Header */}
       <div className="w-full bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-white py-[10px]  sm:py-[14px] px-6 rounded-lg shadow-lg text-center">
@@ -83,6 +86,9 @@ function Cart() {
         </div>
       )}
     </div>
+    <span className='text-center w-[150px] mx-auto block cursor-pointer text-md bg-[#00e3ae] text-white px-3 py-2' 
+    onClick={()=>navigate('/placeOrder')}>Place Order</span>
+     </>
   );
 }
 

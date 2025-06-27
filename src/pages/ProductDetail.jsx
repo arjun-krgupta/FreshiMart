@@ -19,35 +19,35 @@ import {
 function ProductDetail() {
   const { id } = useParams();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const product = allData.find((item) => item.id.toString() === id);
-
   const { cartItem } = useSelector((state) => state.allCart);
 
   if (!product) {
     return (
-      <h1 className="text-center text-xl mt-10 text-red-500">
-        Product Not Found
-      </h1>
+      <h1 className="text-center text-xl mt-10 text-red-500">Product Not Found</h1>
     );
   }
 
-  const name = product.name || "No Name Available";
+  const name = product.name || "No Name";
   const qnty = product.qnty || "N/A";
   const price = product.price || 0;
   const offer = product.offer || "No Offer";
   const description = product.description || "No description available.";
+  const brand = product.brand || "Generic";
+  const rating = product.rating || 4.5;
+  const reviews = product.reviews || 100;
+  const type = product.type || "General";
 
-  // Ensure at least 3 images are available
-  const images =
-    product.images?.length >= 3
-      ? product.images.slice(0, 3)
-      : [product.img, product.img, product.img];
+ const images =
+  product.images?.length >= 3
+    ? product.images.slice(0, 3)
+    : [product.img, product.img, product.img];
 
   const cartProduct = cartItem.find((item) => item.id === product.id);
   const quantity = cartProduct?.qty || 0;
   const totalPrice = quantity * price;
 
-  // State for selected image (use index instead of object reference)
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
   const handleImageClick = (index) => {
@@ -63,24 +63,22 @@ function ProductDetail() {
   const handleDecrement = () => dispatch(removeCart(product.id));
   const handleSingleDecrement = () => dispatch(removeSingleItem(product));
 
-  const navigate = useNavigate();
-
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start lg:justify-center lg:gap-2 mt-5 px-2 lg:px-24 xl:px-32">
-        {/* Left Section - Product Images */}
-        <div className="flex lg:w-[50%] gap-1 mx-auto">
-          {/* Small Thumbnails */}
-          <div className="flex flex-col gap-2 p-1">
+      <div className="flex flex-col lg:flex-row items-start lg:justify-center gap-6 mt-5 px-4 lg:px-24">
+        {/* Left Section - Images + Buttons */}
+        <div className="flex items-start lg:w-[50%] gap-4">
+          {/* Thumbnails */}
+          <div className="flex flex-col items-start gap-2">
             {images.map((img, index) => (
-              <div className="w-16 h-16 sm:w-20 sm:h-20" key={index}>
+              <div className="w-16 h-16 border rounded" key={index}>
                 <img
                   src={img}
                   alt={`Thumbnail ${index + 1}`}
-                  className={`h-full w-full object-contain p-2 border rounded cursor-pointer transition-all duration-300 ${
+                  className={`w-full h-full object-contain p-1 cursor-pointer ${
                     selectedImageIndex === index
-                      ? "border-[#9be15d]"
-                      : "border-gray-300"
+                      ? "border-2 border-green-500"
+                      : ""
                   }`}
                   onClick={() => handleImageClick(index)}
                 />
@@ -88,9 +86,10 @@ function ProductDetail() {
             ))}
           </div>
 
-          {/* Main Image */}
-          <Card className="w-[240px] h-[260px] overflow-x-auto webkit sm:w-[300px] sm:h-[350px] flex justify-center border shadow-none ring-0 p-4">
-            <CardHeader className="h-auto w-full flex justify-center mx-auto items-center shadow-none ring-0 bg-transparent">
+         <div className="flex w-full flex-col gap-3">
+           {/* Main Image */}
+          <Card className="w-full h-[350px] flex justify-center items-center border rounded-none p-4">
+            <CardHeader className="shadow-none ring-0 bg-transparent">
               <img
                 src={images[selectedImageIndex]}
                 alt={name}
@@ -98,112 +97,95 @@ function ProductDetail() {
               />
             </CardHeader>
           </Card>
+
+          {/* Action Buttons below image */}
+          <div className="flex gap-3 w-full justify-center mt-3">
+            <Button
+              variant="gradient"
+              className="bg-gradient-to-l from-[#9be15d] to-[#00e3ae] w-1/2"
+              onClick={handleAddToCart}
+            >
+              ADD TO CART
+            </Button>
+            <Button
+              className="bg-yellow-800 w-1/2"
+              onClick={() => {
+                navigate("/buyNow", { state: { product } });
+              }}
+            >
+              BUY NOW
+            </Button>
+          </div>
+         </div>
+
         </div>
 
-        {/* Right Section - Product Details */}
-        <Card className="w-full px-3 sm:px-4 md:px-20 py-2 lg:p-2 lg:border shadow-none ring-0">
-          <hr className="block bg-gray-100 w-full lg:hidden" />
+        {/* Right Section - Product Info */}
+        <Card className="w-full lg:w-[50%] p-4 shadow-none ring-0">
           <CardBody>
             <Typography variant="h3" className="font-bold text-gray-900">
               {name}
             </Typography>
-            <Typography
-              variant="paragraph"
-              className="text-gray-600 text-sm mt-1"
-            >
+            <Typography className="text-gray-600 text-sm mt-1">
               {qnty}
             </Typography>
 
-            {/* Price & Offer */}
-            <div className="flex items-center gap-4 mt-3">
+            <div className="flex items-center gap-4 mt-2">
               <Typography variant="h5" className="font-semibold text-black">
                 ₹{totalPrice || price}
               </Typography>
               {offer && (
-                <Typography
-                  variant="small"
-                  className="text-green-500 font-semibold"
-                >
+                <Typography variant="small" className="text-green-600 font-medium">
                   {offer}
                 </Typography>
               )}
             </div>
 
-            {/* Product Description */}
-            <Typography
-              variant="paragraph"
-              className="text-gray-700 mt-4 pe-0 lg:pe-5 text-justify leading-relaxed"
-            >
+            {/* Description */}
+            <Typography className="text-gray-700 mt-4 leading-relaxed text-justify">
               {description}
             </Typography>
 
-            {/* Cart Controls */}
-            <div className="flex items-center mt-6">
-              {quantity > 0 ? (
-                <div className="flex flex-col w-full gap-3">
-                  <div className="flex items-center gap-4">
-                    <Button
-                      color="red"
-                      variant="gradient"
-                      size="sm"
-                      className="px-4"
-                      onClick={
-                        quantity <= 1 ? handleDecrement : handleSingleDecrement
-                      }
-                    >
-                      -
-                    </Button>
-
-                    <Typography variant="h5" className="font-medium">
-                      {quantity}
-                    </Typography>
-
-                    <Button
-                      color="green"
-                      variant="gradient"
-                      size="sm"
-                      className="px-4"
-                      onClick={handleIncrement}
-                    >
-                      +
-                    </Button>
-                  </div>
-
-                  {/* 👇 Place Order should still be available */}
-                  <Button
-                    className="w-full bg-yellow-800 text-sm"
-                    onClick={() => navigate("/placeOrder")}
-                  >
-                    PLACE ORDER
-                  </Button>
-                </div>
-              ) : (
-                // Show Add to Cart & Place Order initially
-                <div className="flex gap-3 w-full mx-3 px-3 lg:px-1">
-                  <Button
-                    variant="gradient"
-                    className="w-full mt-4 bg-gradient-to-l from-[#9be15d] to-[#00e3ae] text-sm"
-                    onClick={handleAddToCart}
-                  >
-                    ADD TO CART
-                  </Button>
-                  <Button
-                    className="w-full mt-4 bg-yellow-800 text-sm"
-                    onClick={() => {
-                      handleAddToCart();
-                      navigate("/placeOrder");
-                    }}
-                  >
-                    PLACE ORDER
-                  </Button>
-                </div>
-              )}
+            {/* Extra Details */}
+            <div className="mt-4 text-sm text-gray-800 space-y-2">
+              <p><strong>Category:</strong> {type}</p>
+              <p><strong>Brand:</strong> {brand}</p>
+              <p><strong>Availability:</strong> In Stock</p>
+              <p><strong>Rating:</strong> ⭐ {rating} / 5</p>
+              <p><strong>Reviews:</strong> {reviews} Customer Reviews</p>
+              <p><strong>Delivery:</strong> Estimated in 3–5 days</p>
             </div>
+
+            {/* Quantity Controls if in Cart */}
+            {quantity > 0 && (
+              <div className="mt-6">
+                <div className="flex items-center gap-4">
+                  <Button
+                    color="red"
+                    variant="gradient"
+                    size="sm"
+                    onClick={
+                      quantity <= 1 ? handleDecrement : handleSingleDecrement
+                    }
+                  >
+                    -
+                  </Button>
+                  <Typography variant="h5">{quantity}</Typography>
+                  <Button
+                    color="green"
+                    variant="gradient"
+                    size="sm"
+                    onClick={handleIncrement}
+                  >
+                    +
+                  </Button>
+                </div>
+              </div>
+            )}
           </CardBody>
         </Card>
       </div>
 
-      {/* Toast Notification */}
       <ToastContainer position="top-center" autoClose={1000} hideProgressBar />
     </>
   );

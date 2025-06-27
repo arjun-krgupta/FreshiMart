@@ -71,7 +71,7 @@ const PlaceOrder = () => {
             Delivery Address
           </Typography>
 
-          <div className="space-y-4">
+          <div className="space-y-3">
             <input
               type="text"
               placeholder="Full Name"
@@ -82,11 +82,32 @@ const PlaceOrder = () => {
               placeholder="Phone Number"
               className="w-full border rounded-md px-4 py-2 text-sm"
             />
+             <input
+              type="text"
+              placeholder="Pincode"
+              className="w-full border rounded-md px-4 py-2 text-sm"
+            />
+             <input
+              type="text"
+              placeholder="State"
+              className="w-full border rounded-md px-4 py-2 text-sm"
+            />
+             <input
+              type="text"
+              placeholder="City"
+              className="w-full border rounded-md px-4 py-2 text-sm"
+            />
+               <input
+              type="text"
+              placeholder="Locality"
+              className="w-full border rounded-md px-4 py-2 text-sm"
+            />
             <textarea
               placeholder="Complete Address"
               rows={4}
               className="w-full border rounded-md px-4 py-2 text-sm"
             ></textarea>
+            
           </div>
 
           <div className="border-t pt-4 flex justify-between text-md font-bold text-gray-800">
